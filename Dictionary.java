@@ -1,14 +1,28 @@
-import java.util.ArrayList;
+import java.util.LinkedHashMap;
 
 public class Dictionary {
-    private ArrayList<Word> words;
-    public Dictionary(){
-        words = new ArrayList<>();
+    private final LinkedHashMap<String, String> dictionary;
+
+    /**
+     * Class' constructor to initialize dictionary in the form of a HashMap.
+     */
+    public Dictionary() {
+        dictionary = new LinkedHashMap<>();
     }
-    public void addWord(Word word){
-        words.add(word);
+
+    /**
+     * Adds a new word into the dictionary.
+     * @param word word to add
+     */
+    public void addWord(Word word) {
+        dictionary.put(word.getWordTarget(), word.getWordExplain());
     }
-    public ArrayList<Word> getWords(){
-        return words;
+
+    /**
+     * Gets the dictionary for other usages.
+     * @return the dictionary
+     */
+    public LinkedHashMap<String, String> getWords() {
+        return dictionary;
     }
 }
