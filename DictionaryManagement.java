@@ -44,6 +44,69 @@ public class DictionaryManagement {
         }
     }
 
+    public void removeDictionary(Dictionary dictionary){
+        System.out.println("Input word you want to remove: ");
+        scanner.nextLine();
+        String removeWord = scanner.nextLine();
+        if (dictionary.getWords().containsKey(removeWord)){
+            dictionary.getWords().remove(removeWord);
+            System.out.println("Word removed successfully!");
+        }else{
+            System.out.println("This word doesn't exist in the dictionary!");
+        }
+    }
+
+    public void updateDictionary(Dictionary dictionary){
+        System.out.println("Input word you want to update: ");
+        scanner.nextLine();
+        String updateWord = scanner.nextLine();
+        String updateMeaning;
+        if (dictionary.getWords().containsKey(updateWord)){
+            System.out.println(updateWord + "means " + dictionary.getWords().get(updateWord));
+            System.out.println("Change the meaning of this word: ");
+            updateMeaning = scanner.nextLine();
+            dictionary.getWords().put(updateWord, updateMeaning);
+        }else{
+            System.out.println("This word doesn't exist in the dictionary!");
+        }
+    }
+
+
+    /**
+     * Returns the meaning of a word.
+     * @param dictionary stores all words
+     */
+    public void dictionaryLookup(Dictionary dictionary) {
+        System.out.println("Input word: ");
+        scanner.nextLine();
+        String lookupWord = scanner.nextLine();
+        if(dictionary.getWords().containsKey(lookupWord)){
+            System.out.println("Definition: " + dictionary.getWords().get(lookupWord));
+        }else{
+            System.out.println("This word doesn't exist in the dictionary! Please try again!");
+        }
+    }
+
+    /**
+     * Search all the words that begin with certain characters.
+     * @param dictionary stores all words
+     */
+    public void dictionarySearcher(Dictionary dictionary) {
+        System.out.println("Type word to search: ");
+        scanner.nextLine();
+        String searchWord = scanner.nextLine();
+        for (String word : dictionary.getWords().keySet()) {
+            if (word.startsWith(searchWord)) {
+                System.out.println(word);
+            }
+        }
+    }
+
+    public void playGame(Dictionary dictionary){
+        Game1 game = new Game1();
+        game.question(dictionary);
+    }
+
     /**
      * Receives dictionary data from a text file.
      * @param dictionary stores all words.
@@ -66,42 +129,12 @@ public class DictionaryManagement {
     }
 
     /**
-     * Returns the meaning of a word.
-     * @param dictionary stores all words
-     */
-    public void dictionaryLookup(Dictionary dictionary) {
-        System.out.println("Input word: ");
-        while (true) {
-            String lookupWord = scanner.nextLine();
-            if (dictionary.getWords().containsKey(lookupWord)) {
-                System.out.println("Definition: " + dictionary.getWords().get(lookupWord));
-                break;
-            }
-            System.out.println("This word doesn't exist in the dictionary! Please try again!");
-        }
-    }
-
-    /**
-     * Search all the words that begin with certain characters.
-     * @param dictionary stores all words
-     */
-    public void dictionarySearcher(Dictionary dictionary) {
-        System.out.println("Type word to search: ");
-        String searchWord = scanner.nextLine();
-        for (String word : dictionary.getWords().keySet()) {
-            if (word.startsWith(searchWord)) {
-                System.out.println(word);
-            }
-        }
-    }
-
-    /**
      * Export all data in the current dictionary to a new txt file.
      * @param dictionary stores all words
      * @throws IOException handle exceptions
      */
     public void dictionaryExportToFile(Dictionary dictionary) throws IOException {
-        FileWriter fw = new FileWriter("dictionaries.txt");
+        FileWriter fw = new FileWriter("user.txt");
         BufferedWriter bw = new BufferedWriter(fw);
         int countWords = 0;
         bw.write("No\t|\tEnglish\t|\tVietnamese\n");
@@ -112,9 +145,9 @@ public class DictionaryManagement {
             bw.write("\t\t");
             bw.write(dictionary.getWords().get(word));
             bw.write("\n");
-
             countWords++;
         }
+        System.out.println("Words from dictionary have been exported to file!");
         bw.close();
     }
 
@@ -124,40 +157,43 @@ public class DictionaryManagement {
      * @throws IOException handle exceptions
      */
     public void dictionaryAdvanced(Dictionary dictionary) throws IOException {
-        Messages.printMenu();
-        int mode = appMode();
-        switch (mode) {
-            case 0:
-                System.out.println("Goodbye! See you later!");
-                System.exit(0);
-                break;
-            case 1:
-                insertFromCommandline(dictionary);
-                break;
-            case 2:
-                System.out.println("Removed!");
-                break;
-            case 3:
-                System.out.println("Updated!");
-                break;
-            case 4:
-                DictionaryCommandline.showAllWords(dictionary);
-                break;
-            case 5:
-                dictionaryLookup(dictionary);
-                break;
-            case 6:
-                dictionarySearcher(dictionary);
-                break;
-            case 7:
-                System.out.println("Game!");
-                break;
-            case 8:
-                insertFromFile(dictionary, "dictionaries.txt");
-                break;
-            case 9:
-                dictionaryExportToFile(dictionary);
-                break;
+        while (true) {
+            Messages.printMenu();
+            int mode = appMode();
+            switch (mode) {
+                case 0:
+                    System.out.println("Goodbye! See you later!");
+                    System.exit(0);
+                    break;
+                case 1:
+                    insertFromCommandline(dictionary);
+                    break;
+                case 2:
+                    removeDictionary(dictionary);
+                    break;
+                case 3:
+                    updateDictionary(dictionary);
+                    break;
+                case 4:
+                    DictionaryCommandline.showAllWords(dictionary);
+                    break;
+                case 5:
+                    dictionaryLookup(dictionary);
+                    break;
+                case 6:
+                    dictionarySearcher(dictionary);
+                    break;
+                case 7:
+                    insertFromFile(dictionary, "dictionaries.txt");
+                    playGame(dictionary);
+                    break;
+                case 8:
+                    insertFromFile(dictionary, "dictionaries.txt");
+                    break;
+                case 9:
+                    dictionaryExportToFile(dictionary);
+                    break;
+            }
         }
     }
 }
