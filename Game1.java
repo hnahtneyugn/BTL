@@ -14,14 +14,14 @@ public class Game1 {
         Random random = new Random();
         Map.Entry<String, String> randomEntry = entryList.get(random.nextInt(entryList.size()));
         // In ra cặp key-value ngẫu nhiên
-        System.out.println("Question: " + randomEntry.getValue());
-        System.out.println("Your answer: ");
+        System.out.println("Câu hỏi: Từ tiếng anh nào có nghĩa là: " + randomEntry.getValue());
+        System.out.println("Câu trả lời của bạn: ");
         Scanner scanner = new Scanner(System.in);
         String answer = scanner.nextLine();
         if(answer.equalsIgnoreCase(randomEntry.getKey().trim())){
-            System.out.println("Correct");
+            System.out.println("Đáp án của bạn chính xác!");
         }else{
-            System.out.println("You wrong!. Answer: " + randomEntry.getKey());
+            System.out.println("Rất tiếc dáp án của bạn chưa đúng. Đáp án đúng là: " + randomEntry.getKey());
         }
     }
 }

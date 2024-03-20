@@ -1,7 +1,8 @@
 mother mẹ
 father bố 
-sister chị
-brother anh
+sister chị gái
+brother anh trai
 school trường học
 class lớp học
 grade khối
+teacher thầy(cô) giáo
