@@ -123,7 +123,7 @@ public class DictionaryManagement {
                 game1.question(dictionary);
             case 2:
                 Game2 game2 = new Game2();
-
+                game2.question(dictionary);
             case 3:
                 Game3 game3 = new Game3();
 
