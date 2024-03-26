@@ -21,7 +21,17 @@ public class DictionaryManagement {
             if (0 <= mode && mode <= 9) {
                 return mode;
             }
-            System.out.println("Action not supported!");
+            System.out.println("Hành động không hợp lệ!");
+        }
+    }
+
+    public int gameMode() {
+        while (true) {
+            int gameMode = scanner.nextInt();
+            if (1 <= gameMode && gameMode <= 3) {
+                return gameMode;
+            }
+            System.out.println("Mời bạn chọn lại!");
         }
     }
 
@@ -30,14 +40,14 @@ public class DictionaryManagement {
      * @param dictionary store all inserted words
      */
     public void insertFromCommandline(Dictionary dictionary) {
-        System.out.println("Type in number of words: ");
+        System.out.println("Nhập vào số lượng từ bạn muốn: ");
         int count = scanner.nextInt();
         scanner.nextLine();
         for (int i = 1; i <= count; i++) {
-            System.out.println("The " + i + "th word you insert");
-            System.out.println("Insert English word: ");
+            System.out.println("Từ thứ " + i + " mà bạn đã thêm vào");
+            System.out.println("Nhập vào từ tiếng anh: ");
             String wordTarget = scanner.nextLine();
-            System.out.println("Insert Vietnamese explanation: ");
+            System.out.println("Nhập vào nghĩa tiếng : ");
             String wordExplain = scanner.nextLine();
             Word word = new Word(wordTarget, wordExplain);
             dictionary.addWord(word);
@@ -45,29 +55,29 @@ public class DictionaryManagement {
     }
 
     public void removeDictionary(Dictionary dictionary){
-        System.out.println("Input word you want to remove: ");
+        System.out.println("Nhập vào từ bạn muốn xoá đi: ");
         scanner.nextLine();
         String removeWord = scanner.nextLine();
         if (dictionary.getWords().containsKey(removeWord)){
             dictionary.getWords().remove(removeWord);
-            System.out.println("Word removed successfully!");
+            System.out.println("Từ đã được xoá thành công!");
         }else{
-            System.out.println("This word doesn't exist in the dictionary!");
+            System.out.println("Từ này không tồn tại trong từ điển!");
         }
     }
 
     public void updateDictionary(Dictionary dictionary){
-        System.out.println("Input word you want to update: ");
+        System.out.println("Nhập vào từ bạn muốn sửa: ");
         scanner.nextLine();
         String updateWord = scanner.nextLine();
         String updateMeaning;
         if (dictionary.getWords().containsKey(updateWord)){
-            System.out.println(updateWord + "means " + dictionary.getWords().get(updateWord));
-            System.out.println("Change the meaning of this word: ");
+            System.out.println(updateWord + " nghĩa là " + dictionary.getWords().get(updateWord));
+            System.out.println("Thay đổi nghĩa của từ này thành: ");
             updateMeaning = scanner.nextLine();
             dictionary.getWords().put(updateWord, updateMeaning);
         }else{
-            System.out.println("This word doesn't exist in the dictionary!");
+            System.out.println("Từ này không tồn tại trong từ điển! Hãy thử lại! ");
         }
     }
 
@@ -77,13 +87,13 @@ public class DictionaryManagement {
      * @param dictionary stores all words
      */
     public void dictionaryLookup(Dictionary dictionary) {
-        System.out.println("Input word: ");
+        System.out.println("Nhập từ cần tra nghĩa: ");
         scanner.nextLine();
         String lookupWord = scanner.nextLine();
         if(dictionary.getWords().containsKey(lookupWord)){
-            System.out.println("Definition: " + dictionary.getWords().get(lookupWord));
+            System.out.println("Từ này có nghĩa là: " + dictionary.getWords().get(lookupWord));
         }else{
-            System.out.println("This word doesn't exist in the dictionary! Please try again!");
+            System.out.println("Từ này không tồn tại trong từ điển! Hãy thử lại! ");
         }
     }
 
@@ -92,7 +102,7 @@ public class DictionaryManagement {
      * @param dictionary stores all words
      */
     public void dictionarySearcher(Dictionary dictionary) {
-        System.out.println("Type word to search: ");
+        System.out.println("Nhập từ cần tìm kiếm: ");
         scanner.nextLine();
         String searchWord = scanner.nextLine();
         for (String word : dictionary.getWords().keySet()) {
@@ -102,9 +112,23 @@ public class DictionaryManagement {
         }
     }
 
-    public void playGame(Dictionary dictionary){
-        Game1 game = new Game1();
-        game.question(dictionary);
+    public void playGame(Dictionary dictionary) throws IOException {
+        insertFromFile(dictionary, "dictionaries.txt");
+        System.out.println("Chọn game của bạn (1-3): ");
+        System.out.println("Game 1: Đoán từ tiếng Anh!\nGame2: Đoán chữ cái còn thiếu!\nGame 3: Chọn đáp án chính xác!");
+        int gameMode = gameMode();
+        switch(gameMode) {
+            case 1:
+                Game1 game1 = new Game1();
+                game1.question(dictionary);
+            case 2:
+                Game2 game2 = new Game2();
+                game2.question(dictionary);
+            case 3:
+                Game3 game3 = new Game3();
+
+        }
+
     }
 
     /**
@@ -124,7 +148,7 @@ public class DictionaryManagement {
             Word word = new Word(englishWord, vietnameseWord);
             dictionary.addWord(word);
         }
-        System.out.println("Words from file have been inserted into the dictionary!");
+        System.out.println("Danh sách các từ trong file đã được thêm vào từ điển!");
         br.close();
     }
 
@@ -147,7 +171,7 @@ public class DictionaryManagement {
             bw.write("\n");
             countWords++;
         }
-        System.out.println("Words from dictionary have been exported to file!");
+        System.out.println("Danh sách các từ trong từ điển đã được xuất ra file!");
         bw.close();
     }
 
@@ -162,7 +186,7 @@ public class DictionaryManagement {
             int mode = appMode();
             switch (mode) {
                 case 0:
-                    System.out.println("Goodbye! See you later!");
+                    System.out.println("Xin chào và hẹn gặp lại!");
                     System.exit(0);
                     break;
                 case 1:
@@ -184,7 +208,6 @@ public class DictionaryManagement {
                     dictionarySearcher(dictionary);
                     break;
                 case 7:
-                    insertFromFile(dictionary, "dictionaries.txt");
                     playGame(dictionary);
                     break;
                 case 8:
@@ -194,6 +217,7 @@ public class DictionaryManagement {
                     dictionaryExportToFile(dictionary);
                     break;
             }
+            Wait.wait(1000);
         }
     }
 }
