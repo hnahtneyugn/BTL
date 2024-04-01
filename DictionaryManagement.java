@@ -143,14 +143,15 @@ public class DictionaryManagement {
         switch(gameMode) {
             case 1:
                 Game1 game1 = new Game1(dictionary);
-                game1.question(dictionary);
+                game1.question();
                 break;
             case 2:
                 Game2 game2 = new Game2(dictionary);
-                game2.question(dictionary);
+                game2.question();
                 break;
             case 3:
-                Game3 game3 = new Game3();
+                Game3 game3 = new Game3(dictionary);
+                game3.question();
                 break;
         }
 

@@ -1,8 +1,1167 @@
-mother mẹ
-father bố 
-sister chị gái
-brother anh trai
-school trường học
-class lớp học
-grade khối
-teacher thầy(cô) giáo
+Abandon	bỏ rơi
+Ability	khả năng
+Able	có khả năng
+About	về
+Above	phía trên
+Abroad	ở nước ngoài
+Absence	sự vắng mặt
+Absolute	tuyệt đối
+Absolutely	tuyệt đối
+Absorb	hấp thụ
+Abuse	lạm dụng
+Academic	học thuật
+Accept	chấp nhận
+Acceptable	chấp nhận được
+Access	tiếp cận
+Accident	tai nạn
+Accommodate	cung cấp chỗ ở
+Accommodation	chỗ ở
+Accompany	đi theo
+According	theo
+Account	tài khoản
+Accuracy	độ chính xác
+Accurate	chính xác
+Accuse	buộc tội
+Achieve	đạt được
+Achievement	thành tựu
+Acid	axit
+Acknowledge	thừa nhận
+Acquisition	sự đạt được
+Across	băng qua
+Act	hành động
+Action	hành động
+Active	hoạt động
+Activity	hoạt động
+Actor	diễn viên
+Actress	nữ diễn viên
+Actual	thực tế
+Actually	thực sự
+Ad	quảng cáo
+Adapt	thích nghi
+Add	thêm vào
+Addition	sự thêm vào
+Additional	bổ sung
+Address	địa chỉ
+Adequate	đủ
+Adjective	tính từ
+Adjust	điều chỉnh
+Adjustment	sự điều chỉnh
+Administer	quản lý
+Administration	quản lý
+Administrative	hành chính
+Administrator	người quản lý
+Admission	sự nhập học
+Admit	thừa nhận
+Adolescence	tuổi dậy thì
+Adolescent	thanh thiếu niên
+Adopt	áp dụng
+Adoption	sự áp dụng
+Adult	người lớn
+Advance	tiến bộ
+Advanced	tiên tiến
+Advantage	ưu điểm
+Adventure	cuộc phiêu lưu
+Advertising	quảng cáo
+Advice	lời khuyên
+Advise	khuyên
+Affair	việc
+Afford	đủ khả năng
+Afraid	sợ
+African	người châu Phi
+After	sau
+Afternoon	buổi chiều
+Again	lại
+Against	phản đối
+Age	tuổi
+Agency	cơ quan
+Agent	đại lý
+Aggression	sự xâm lược
+Aggressive	xâm lược
+Ago	trước đây
+Agree	đồng ý
+Agreement	sự đồng ý
+Ahead	phía trước
+Aid	sự giúp đỡ
+AIDS	kiết hợp HIV
+Aim	mục tiêu
+Air	không khí
+Aircraft	máy bay
+Airline	hãng hàng không
+Airport	sân bay
+Alarm	báo động
+Album	album
+Alcohol	ruợu
+Alive	sống
+All	tất cả
+Alliance	liên minh
+Allocate	phân bổ
+Allow	cho phép
+Allowance	trợ cấp
+Almost	gần như
+Alone	một mình
+Along	theo
+Already	đã
+Also	cũng
+Alter	thay đổi
+Alternative	lựa chọn
+Although	mặc dù
+Always	luôn luôn
+Amateur	nghiệp dư
+Amazing	đáng kinh ngạc
+Ambassador	đại sứ
+Ambition	nguyện vọng
+Ambitious	đầy tham vọng
+Amenity	tiện ích
+Among	giữa
+Amount	số lượng
+Analysis	phân tích
+Analyst	nhà phân tích
+Ancient	cổ xưa
+And	và
+Anger	sự tức giận
+Angle	góc
+Angry	tức giận
+Animal	động vật
+Anniversary	kỷ niệm
+Announce	tuyên bố
+Annual	hàng năm
+Another	một cái khác
+Answer	trả lời
+Ant	khẩu
+Anticipate	dự đoán
+Anxiety	nỗi lo âu
+Anxious	buồn phiền
+Any	bất kỳ
+Anybody	bất kỳ ai
+Anymore	không nữa
+Anyone	bất kỳ ai
+Anything	bất kỳ thứ gì
+Anyway	dù sao đi nữa
+Anywhere	bất cứ nơi nào
+Apart	không kết nối
+Apartment	căn hộ
+Apologize	xin lỗi
+Apology	lời xin lỗi
+Apparent	rõ ràng
+Apparently	hoàn toàn có vẻ
+Appeal	kêu gọi
+Appear	xuất hiện
+Appearance	sự xuất hiện
+Apple	quả táo
+Applicant	người xin việc
+Application	ứng dụng
+Apply	áp dụng
+Appoint	bổ nhiệm
+Appointment	cuộc hẹn
+Appreciate	đánh giá cao
+Appreciation	sự đánh giá cao
+Approach	tiếp cận
+Approve	chấp thuận
+Approximately	khoảng
+April	tháng tư
+Arab	người Ả Rập
+Arbitrary	tùy ý
+Architecture	kiến trúc
+Area	khu vực
+Argue	tranh luận
+Argument	điều luận
+Arise	xuất phát
+Arm	cánh tay
+Army	quân đội
+Around	xung quanh
+Arrange	sắp xếp
+Arrangement	sự sắp xếp
+Arrest	bắt giữ
+Arrival	sự đến
+Arrive	đến
+Art	nghệ thuật
+Article	bài báo
+Artificial	nhân tạo
+Artist	nghệ sĩ
+As	như
+Ash	hàn
+Asian	người Á Châu
+Aside	bên cạnh
+Ask	hỏi
+Asleep	ngủ
+Aspect	góc độ
+Assault	tấn công
+Assert	đòi hỏi
+Assessment	đánh giá
+Asset	tài sản
+Assign	giao
+Assignment	nhiệm vụ
+Assist	hỗ trợ
+Assistance	sự giúp đỡ
+Assistant	trợ lý
+Associate	liên kết
+Association	hội
+Assume	giả định
+Assumption	giả định
+Assure	đảm bảo
+At	tại
+Athlete	vận động viên
+Athletic	thể thao
+Atmosphere	bầu không khí
+Attach	gắn kết
+Attachment	đính kèm
+Attack	tấn công
+Attempt	cố gắng
+Attend	tham dự
+Attendance	sự tham dự
+Attention	sự chú ý
+Attitude	thái độ
+Attorney	luật sư
+Attract	lôi kéo
+Attraction	nơi thu hút
+Attractive	hấp dẫn
+Attribute	đặc tính
+Audience	đám đông
+August	tháng tám
+Aunt	cô
+Author	tác giả
+Authority	quyền lực
+Auto	tự động
+Available	sẵn có
+Average	trung bình
+Avoid	tránh
+Award	phần thưởng
+Aware	hiểu biết
+Awareness	sự nhận thức
+Away	đi xa
+Awful	kinh khủng
+Baby	em bé
+Back	phía sau
+Background	phông nền
+Backward	ngược lại
+Bacteria	vi khuẩn
+Bad	xấu
+Badly	một cách tồi tệ
+Bag	túi
+Balance	cân bằng
+Ball	bóng
+Ban	cấm
+Band	băng nhóm
+Bank	nhà băng
+Bar	quán bar
+Base	cơ sở
+Baseball	bóng chày
+Basic	cơ bản
+Basically	cơ bản
+Basis	cơ sở
+Basket	rổ
+Basketball	bóng rổ
+Bathroom	phòng tắm
+Battery	pin
+Battle	trận đánh
+Bay	vịnh
+Be	là
+Beach	bãi biển
+Bean	hạt đậu
+Bear	gấu
+Beat	đánh bại
+Beautiful	đẹp
+Beauty	vẻ đẹp
+Because	bởi vì
+Become	trở thành
+Bed	giường
+Bedroom	phòng ngủ
+Beef	thịt bò
+Before	trước
+Begin	bắt đầu
+Beginning	bắt đầu
+Behave	hành xử
+Behavior	hành vi
+Behind	ở phía sau
+Being	đang tồn tại
+Belief	tin tưởng
+Believe	tin
+Bell	chuông
+Belong	thuộc về
+Below	dưới
+Belt	dây đai
+Bench	ghế đá
+Bend	uốn cong
+Beneath	dưới
+Benefit	lợi ích
+Beside	bên cạnh
+Besides	ngoài ra
+Best	tốt nhất
+Bet	cược
+Better	tốt hơn
+Between	giữa
+Beyond	vượt ra ngoài
+Bible	Kinh Thánh
+Big	lớn
+Bike	xe đạp
+Bill	hóa đơn
+Billion	tỷ
+Bind	buộc
+Biological	sinh học
+Bird	chim
+Birth	sinh
+Birthday	sinh nhật
+Bit	một chút
+Bite	cắn
+Black	đen
+Blame	trách móc
+Blank	trống
+Blanket	chiếu
+Blame	trách móc
+Blind	mù
+Block	khối
+Blood	máu
+Blow	thổi
+Blue	màu xanh da trời
+Board	hội đồng
+Boat	thuyền
+Body	cơ thể
+Bomb	quả bom
+Bombing	sự đánh bom
+Bond	kết nối
+Bone	xương
+Book	sách
+Boom	tăng trưởng nhanh chóng
+Boot	ủng
+Border	biên giới
+Born	sinh ra
+Borrow	mượn
+Boss	sếp
+Both	cả hai
+Bother	làm phiền
+Bottle	chai
+Bottom	đáy
+Bound	liên quan
+Boundary	ranh giới
+Bow	cung
+Bowl	tô
+Box	hộp
+Boy	trai
+Boyfriend	bạn trai
+Brain	não
+Branch	chi nhánh
+Brand	thương hiệu
+Bread	bánh mì
+Break	pause
+Breakfast	bữa sáng
+Breast	vú
+Breath	hơi thở
+Breathe	thở
+Breathing	hít thở
+Brick	gạch
+Bridge	cây cầu
+Brief	tóm tắt
+Briefly	tóm tắt
+Bright	sáng
+Brilliant	lộng lẫy
+Bring	mang
+British	người Anh
+Broad	rộng
+Broadcast	phát sóng
+Broken	hỏng
+Brother	anh em trai
+Brown	nâu
+Brush	chổi
+Buck	đô la
+Budget	kinh phí
+Build	xây dựng
+Building	toà nhà
+Bullet	đạn
+Bunch	nhóm
+Burden	gánh nặng
+Burn	đốt cháy
+Bury	chôn
+Bus	xe buýt
+Business	doanh nghiệp
+Busy	bận rộn
+But	nhưng
+Butter	bơ
+Button	nút
+Buy	mua
+Buyer	khách hàng
+By	bởi
+Cabinet	tủ
+Cable	dây cáp
+Cake	bánh
+Calculate	tính toán
+Calculation	sự tính toán
+Call	gọi
+Camera	máy ảnh
+Camp	trại
+Campaign	chiến dịch
+Campus	khuôn viên
+Can	có thể
+Canadian	người Canada
+Cancer	ung thư
+Candidate	ứng viên
+Candle	nến
+Cannot	không thể
+Canvas	vải
+Cap	mũ lưỡi trai
+Capability	khả năng
+Capacity	sức chứa
+Capital	thủ đô
+Captain	đội trưởng
+Capture	bắt
+Car	xe hơi
+Card	thẻ
+Care	quan tâm
+Career	nghề nghiệp
+Careful	cẩn thận
+Carefully	cẩn thận
+Carry	mang
+Case	trường hợp
+Cash	tiền mặt
+Cast	đúc
+Cat	mèo
+Catch	bắt
+Category	hạng mục
+Catholic	Công giáo
+Cause	nguyên nhân
+Ceiling	trần nhà
+Celebrate	kỷ niệm
+Celebration	lễ kỷ niệm
+Cell	tế bào
+Cemetery	nghĩa trang
+Center	trung tâm
+Central	trung tâm
+Century	thế kỷ
+CEO	Tổng giám đốc điều hành
+Ceremony	nghi lễ
+Certain	chắc chắn
+Certainly	chắc chắn
+Certificate	chứng chỉ
+Chain	xích
+Chair	ghế
+Chairman	chủ tịch
+Challenge	thách thức
+Chamber	phòng
+Chance	cơ hội
+Change	thay đổi
+Changing	thay đổi
+Channel	kênh
+Chapter	chương
+Character	ký tự
+Characteristic	đặc điểm
+Characterize	đặc trưng
+Charge	tính phí
+Charity	từ thiện
+Chart	bảng biểu
+Chase	truy đuổi
+Cheap	rẻ
+Check	kiểm tra
+Cheek	má
+Cheese	pho mát
+Chef	đầu bếp
+Chemical	hóa học
+Chest	ngực
+Chicken	gà
+Chief	chủ
+Child	trẻ em
+Childhood	thời thơ ấu
+Chinese	người Trung Quốc
+Chip	vi chip
+Chocolate	sô cô la
+Choice	lựa chọn
+Choose	chọn
+Christian	người Kitô giáo
+Christmas	Giáng sinh
+Church	ngôi nhà thờ
+Cigarette	tràng
+Circle	vòng tròn
+Circumstance	tình huống
+Citizen	công dân
+City	thành phố
+Civil	dân sự
+Claim	đòi hỏi
+Class	lớp học
+Classic	kiểu cách
+Classroom	phòng học
+Clean	sạch sẽ
+Clear	rõ ràng
+Clearly	rõ ràng
+Client	khách hàng
+Climate	khí hậu
+Climb	leo lên
+Clinic	phòng khám
+Clinical	điều trị lâm sàng
+Clock	đồng hồ
+Close	gần
+Closed	kín
+Closet	tủ quần áo
+Cloth	vải
+Clothes	quần áo
+Clothing	quần áo
+Cloud	mây
+Club	câu lạc bộ
+Clue	gợi ý
+Cluster	cụm
+Coach	huấn luyện viên
+Coal	than đá
+Coast	bờ biển
+Coat	áo choàng
+Code	mã
+Coffee	cà phê
+Cognitive	cơ động
+Coin	đồng xu
+Cold	lạnh
+Collaboration	hợp tác
+Collapse	sụp đổ
+Colleague	đồng nghiệp
+Collect	ghi
+Collection	bộ sưu tập
+Collector	người thu gom
+College	trường đại học
+Colonial	thuộc thuộc địa
+Color	màu
+Column	cột
+Combination	kết hợp
+Combine	kết hợp
+Come	đến
+Comedy	hài kịch
+Comfort	thoải mái
+Comfortable	thoải mái
+Command	ra lệnh
+Commander	người chỉ huy
+Comment	bình luận
+Commercial	thương mại
+Commission	ủy ban
+Commit	ủng hộ
+Commitment	ấn tượng
+Committee	ủy ban
+Common	chung
+Commonly	thường
+Communicate	giao tiếp
+Communication	giao tiếp
+Community	cộng đồng
+Company	công ty
+Comparable	tương tự
+Compare	so sánh
+Comparison	so sánh
+Compel	ep buộc
+Compensation	bồi thường
+Compete	cạnh tranh
+Competition	cạnh tranh
+Competitive	cạnh tranh
+Competitor	đối thủ
+Complain	phàn nàn
+Complaint	kháng nghị
+Complete	hoàn thành
+Completely	hoàn toàn
+Complex	phức tạp
+Complexity	phức tạp
+Complicate	làm phức tạp
+Complicated	phức tạp
+Component	thành phần
+Compose	sáng tác
+Composition	bài luận
+Comprehensive	toàn diện
+Comprise	bao gồm
+Compromise	thỏa hiệp
+Computer	máy tính
+Concentrate	tập trung
+Concentration	sự tập trung
+Concept	khái niệm
+Concern	quan tâm
+Concerned	quan tâm
+Concert	hội nhạc
+Conclusion	kết luận
+Concrete	bê tông
+Condition	điều kiện
+Conduct	hành vi
+Conference	hội nghị
+Confidence	tự tin
+Confident	tự tin
+Confirm	xác nhận
+Conflict	xung đột
+Confront	đối đầu
+Confuse	giống
+Confusion	sự lúng túng
+Congress	quốc hội
+Connect	kết nối
+Connection	kết nối
+Conscious	tiềm thức
+Consequence	hậu quả
+Conservative	bảo thủ
+Consider	xem xét
+Considerable	khá
+Consideration	sự xem xét
+Consist	gồm có
+Constant	liên tục
+Constantly	liên tục
+Constitute	cấu tạo
+Constitution	hiến pháp
+Construction	xây dựng
+Consult	tham khảo
+Consultant	cố vấn
+Consultation	sự tham khảo
+Consumer	khách hàng
+Consumption	tiêu thụ
+Contact	tiếp xúc
+Contain	chứa
+Container	thùng chứa
+Contemporary	đương đại
+Content	nội dung
+Contest	tranh giành
+Context	bối cảnh
+Continue	tiếp tục
+Continued	tiếp tục
+Contract	hợp đồng
+Contrast	sự tương phản
+Contribute	góp phần
+Contribution	đóng góp
+Control	kiểm soát
+Controversial	gây tranh cãi
+Controversy	tranh cãi
+Convenience	tiện lợi
+Convenient	thuận tiện
+Convention	hiệp định
+Conventional	truyền thống
+Conversation	cuộc trò chuyện
+Convert	chuyển đổi
+Conviction	tin ngưỡng
+Convince	thuyết phục
+Cook	nấu ăn
+Cookie	bánh quy
+Cooking	nấu nướng
+Cool	mát mẻ
+Cooperation	hợp tác
+Cooperative	hợp tác
+Coordinate	phối hợp
+Coordination	sự phối hợp
+Cop	cảnh sát
+Cope	chịu đựng
+Copy	sao chép
+Core	cốt lõi
+Corn	lúa mạch
+Corner	góc
+Corporate	doanh nghiệp
+Corporation	tập đoàn
+Correct	correct
+Correctly	correctly
+Correlation	tương quan
+Correspond	phù hợp
+Correspondent	phóng viên
+Corruption	tham nhũng
+Cost	giá cả
+Cottage	nhà tranh
+Cotton	bông
+Couch	sofa
+Could	có thể
+Council	hội đồng
+Counsel	loại bỏ
+Counseling	tư vấn
+Counselor	cố vấn
+Count	đếm
+Counter	quầy thu ngân
+Country	đất nước
+County	hạt
+Couple	cặp
+Courage	dũng khí
+Course	khóa học
+Court	tòa án
+Cousin	anh em họ
+Cover	phủ
+Coverage	phạm vi
+Cow	bò
+Crack	nứt
+Craft	nghề thủ công
+Crash	tai nạn
+Crazy	điên
+Cream	kem
+Create	tạo
+Creation	tạo ra
+Creative	sáng tạo
+Creativity	sáng tạo
+Creature	sinh vật
+Credit	tín dụng
+Crew	phi hành đoàn
+Crime	tội ác
+Criminal	phạm tội
+Crisis	khủng hoảng
+Criteria	tiêu chí
+Critic	nhà phê bình
+Critical	chính trị
+Criticism	sự phê bình
+Critique	bình luận
+Crop	vụ mùa
+Cross	băng qua
+Crowd	đám đông
+Crown	vương miện
+Crucial	rất quan trọng
+Cry	kêu lên
+Cultural	văn hóa
+Culture	văn hóa
+Cup	cốc
+Cure	chữa
+Curiosity	tò mò
+Curious	tò mò
+Currency	tiền tệ
+Current	hiện tại
+Currently	hiện nay
+Curriculum	chương trình giảng dạy
+Curve	đường cong
+Custom	thói quen
+Customer	khách hàng
+Cut	cắt
+Cycle	vòng lặp
+Dad	bố
+Daily	hằng ngày
+Damage	tổn thương
+Dance	vũ
+Danger	nguy hiểm
+Dangerous	nguy hiểm
+Dark	tối
+Darkness	bóng tối
+Data	dữ liệu
+Database	cơ sở dữ liệu
+Date	ngày
+Daughter	con gái
+Day	ngày
+Dead	chết
+Deadline	hạn chót
+Deal	điều khoản
+Dealer	người bán hàng
+Dear	quý
+Death	sự chết
+Debate	tranh luận
+Debt	nợ
+Decade	thập kỷ
+Decide	quyết định
+Decision	sự quyết định
+Declare	tuyên bố
+Decline	suống giảm
+Decorate	trang trí
+Decoration	trang trí
+Decrease	giảm
+Deep	sâu
+Deeply	một cách sâu sắc
+Deer	hươu
+Defeat	thất bại
+Defend	bảo vệ
+Defendant	bị cáo
+Defense	bảo vệ
+Defensive	phòng thủ
+Deficit	phát hành
+Define	xác định
+Definition	định nghĩa
+Degree	bằng cấp
+Delay	trì hoãn
+Deliver	giao hàng
+Delivery	giao hàng
+Demand	yêu cầu
+Democracy	dân chủ
+Democratic	dân chủ
+Demonstrate	đưa ra
+Demonstration	demonstration
+Deny	từ chối
+Department	bộ phận
+Depend	phụ thuộc
+Dependent	phụ thuộc
+Depending	tùy thuộc
+Depict	miêu tả
+Depression	ảm đạm
+Depth	sâu
+Deputy	phó
+Derive	phát xuất
+Describe	mô tả
+Description	sự mô tả
+Desert	sa mạc
+Deserve	xứng đáng
+Design	thiết kế
+Designer	người thiết kế
+Desire	khao khát
+Desk	bàn làm việc
+Desperate	tuyệt vọng
+Despite	mặc dù
+Destroy	phá hủy
+Destruction	sự phá hủy
+Detail	chi tiết
+Detailed	chi tiết
+Determine	xác định
+Develop	phát triển
+Development	phát triển
+Device	thiết bị
+Devote	hiến
+Dial	gọi
+Dialogue	đối thoại
+Die	chết
+Diet	chế độ ăn
+Differ	khác nhau
+Difference	sự khác biệt
+Different	khác biệt
+Differently	một cách khác biệt
+Difficult	khó khăn
+Difficulty	khó khăn
+Dig	khám phá
+Digital	kỹ thuật số
+Dimension	kích thước
+Dining	ăn uống
+Dinner	bữa tối
+Direct	trực tiếp
+Direction	hướng
+Directly	trực tiếp
+Director	giám đốc
+Dirt	bụi bẩn
+Dirty	bẩn
+Disability	tàn tật
+Disappear	mất
+Disappoint	thất vọng
+Disappointment	thất vọng
+Disaster	thảm họa
+Discipline	kỷ luật
+Disclose	tiết lộ
+Discount	chiết khấu
+Discover	khám phá
+Discovery	khám phá
+Discuss	bàn luận
+Discussion	thảo luận
+Disease	bệnh
+Disk	đĩa
+Dismiss	bãi bỏ
+Disorder	loạn thất
+Display	hiển thị
+Dispute	tranh chấp
+Distance	khoảng cách
+Distant	xa xôi
+Distinct	rõ ràng
+Distinction	sự phân biệt
+Distinguish	phân biệt
+Distribute	phân phối
+Distribution	phân phối
+District	khu vực
+Disturb	làm phiền
+Diverse	đa dạng
+Diversity	sự đa dạng
+Divide	chia
+Division	phân cấp
+Divorce	ly dị
+DNA	DNA
+Do	làm
+Doctor	bác sĩ
+Document	tài liệu
+Dog	chó
+Domestic	nội địa
+Dominant	kiểm soát
+Dominate	chiếm ưu thế
+Door	cửa
+Double	gấp đôi
+Doubt	nghi ngờ
+Down	xuống
+Downtown	trung tâm thành phố
+Dozen	mười hai
+Draft	bản nháp
+Drag	kéo
+Drama	kịch
+Dramatic	mạnh mẽ
+Draw	vẽ
+Drawer	kệ ngăn kéo
+Drawing	bản vẽ
+Dream	mơ ước
+Dress	ăn mặc
+Drink	uống
+Drive	điều khiển
+Driver	tài xế
+Drop	giảm
+Drug	thuốc
+Dry	khô
+Dual	đôi
+Due	đến hạn
+Dull	chán chường
+During	trong suốt
+Dust	bụi
+Duty	nhiệm vụ
+Each	mỗi
+Eager	hăm hở
+Ear	tai
+Early	sớm
+Earn	kiếm được
+Earnings	lợi nhuận
+Earth	Trái đất
+Ease	dễ dàng
+Easily	dễ dàng
+East	phía đông
+Eastern	đông
+Easy	dễ dàng
+Eat	ăn
+Economic	kinh tế
+Economics	kinh tế học
+Economist	người kinh tế học
+Economy	nền kinh tế
+Edge	lề
+Edition	bản
+everybody mọi người
+Everyday hàng ngày
+Everyone mọi người
+Everything mọi thứ
+Everywhere mọi nơi
+Evidence bằng chứng
+Evolution tiến hóa
+Evolve tiến hóa
+Exact chính xác
+Exactly đúng
+Exam kỳ thi
+Examination kiểm tra
+Examine kiểm tra
+Example ví dụ
+Excellent xuất sắc
+Except trừ
+Exception ngoại lệ
+Exchange trao đổi
+Exciting thú vị
+Exclude loại trừ
+Exclusive duy nhất
+Excuse lý do
+Executive cố vấn
+Exercise bài tập
+Exhibit trưng bày
+Exhibition trưng bày
+Exist tồn tại
+Existence sự tồn tại
+Exit lối thoát
+Expand mở rộng
+Expansion mở rộng
+Expect mong đợi
+Expectation sự mong đợi
+Expense chi phí
+Expensive đắt tiền
+Experience kinh nghiệm
+Experienced đã có kinh nghiệm
+Experiment thí nghiệm
+Expert chuyên gia
+Explain giải thích
+Explanation sự giải thích
+Explode nổ
+Exploit khai thác
+Exploration khám phá
+Explore khám phá
+Export xuất khẩu
+Expose tiết lộ
+Exposure sự tiếp xúc
+Express bày tỏ
+Expression biểu lộ
+Extend mở rộng
+Extension sự mở rộng
+Extensive rộng lớn
+Extent quy mô
+External bên ngoài
+Extra phụ
+Extraordinary phi thường
+Extreme cực kỳ
+Extremely rất
+Eye mắt
+Face khuôn mặt
+Facility cơ sở vật chất
+Fact sự thật
+Factor yếu tố
+Factory nhà máy
+Faculty khoa
+Fail thất bại
+Failure sự thất bại
+Fair công bằng
+Fairly hợp lý
+Faith tin
+Fall rơi
+False sai
+Fame danh tiếng
+Familiar quen thuộc
+Family gia đình
+Famous nổi tiếng
+Fan fan
+Fantastic tuyệt vời
+Far xa
+Farm nông trại
+Farmer nông dân
+Fashion thời trang
+Fast nhanh
+Fat béo
+Fate vận mệnh
+Father cha
+Fault lỗi
+Favorite yêu thích
+Fear nỗi sợ hãi
+Feature đặc điểm
+Federal liên bang
+Fee phí
+Feed cho ăn
+Feel cảm thấy
+Feeling cảm giác
+Fellow bạn đồng nghiệp
+Female nữ giới
+Fence hàng rào
+Few vài
+Fewer ít hơn
+Fiber sợi
+Fiction hư cấu
+Field lĩnh vực
+Fifteen mười lăm
+Fifth thứ năm
+Fifty năm mươi
+Fight tranh đấu
+Fighter nhà vô địch
+Figure hình dáng
+File tệp
+Fill lấp đầy
+Film phim
+Final cuối cùng
+Finally cuối cùng
+Finance tài chính
+Financial tài chính
+Find tìm thấy
+Finding kết quả
+Fine tốt
+Finger ngón tay
+Finish kết thúc
+Fire lửa
+Firm công ty
+First đầu tiên
+Fish cá
+Fishing câu cá
+Fit phù hợp
+Fitness thể lực
+Five năm
+Fix sửa chữa
+Fixed đã được sửa chữa
+Flag cờ
+Flame ngọn lửa
+Flat bằng phẳng
+Flavor vị
+Flee bỏ trốn
+Flesh thịt
+Flight chuyến bay
+Float nổi
+Floor sàn
+Flow lưu chuyển
+Flower hoa
+Fly bay
+Focus tập trung
+Fold gấp
+Folk dân gian
+Follow theo dõi
+Following tiếp theo
+Food thức ăn
+Foot chân
+Football bóng đá
+For cho
+Force lực lượng
+Foreign nước ngoài
+Forest rừng
+Forever mãi mãi
+Forget quên
+Forgive tha thứ
+Form hình thức
+Formal chính thức
+Former trước đây
+Formula công thức
+Fortune vận may
+Forward về phía trước
+Foundation nền tảng
+Frame khung
+Framework khung
+Free miễn phí
+Freedom sự tự do
+Freely một cách tự do
+Freeze đông lạnh
+French Tiếng Pháp
+Frequency tần suất
+Frequent thường xuyên
+Frequently thường xuyên
+Fresh tươi
+Friend bạn bè
+Friendly thân thiện
+Friendship tình bạn
+From từ
+Front phía trước
+Fruit trái cây
+Frustration sự thất vọng
+Fuel nhiên liệu
+Full đầy đủ
+Fully hoàn toàn
+Function chức năng
+Fund quỹ
+Fundamental cơ bản
+Funding khoản tài trợ
+Fun niềm vui
+Funny vui nhộn
+Furniture nội thất
+Further thêm
+Future tương lai
+Gain đạt được
+Galaxy ngân hà
+Gallery phòng trưng bày
+Game trò chơi
+Gap khuyết
+Garage gara
+Garden vườn
+Garlic tỏi
+Gas gas
+Gate cổng
+Gather tập hợp
+Gay gay
+Gaze nhìn chằm chằm
+Gear bánh răng
+Gender giới tính
+Gene gene
+General chung
+Generally thường
+Generate tạo ra
+Generation thế hệ
+Generous hào phóng
+Genetic genet
+Gentle hiền lành
+Gently một cách nhẹ nhàng
+German Tiếng Đức
+Gesture cử chỉ
+Get lấy
+Ghost ma
+Giant khổng lồ
+Gift món quà
+Girl cô gái
+Girlfriend bạn gái
+Give cho
+Given đã cho
+Glad vui mừng
+Glass kính
+Global toàn cầu
+Glove găng tay
+Go đi
+Goal mục tiêu
+God Chúa
+Gold vàng
+Golden vàng
+Golf gôn
+Good tốt
+Govern quản lý
+Government chính phủ
+Governor thống đốc
+Grab nắm lấy
+Grade đánh giá
+Gradually dần dần
+Grain hạt
+Grand lớn
+Grandfather ông
+Grandmother bà
+Grant trao
+Grass cỏ
+Grateful biết ơn
+Great lớn
+Greatly một cách lớn lao
+Greek Tiếng Hy Lạp
+Green xanh lá cây
+Greet chào hỏi
+Gregory Gregory
+Grey xám
+Grid lưới
+Grief nỗi buồn
+Grin cười
+Grip lực cầm
+Grocery cửa hàng tạp hóa
+Ground mặt đất
+Group nhóm
+Grow tăng trưởng
+Growing tăng trưởng
+Growth sự phát triển
+Guarantee bảo đảm
+Guard bảo vệ
+Guess dự đoán
+Guest khách mời

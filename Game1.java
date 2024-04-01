@@ -26,7 +26,7 @@ public class Game1 {
         return quest;
     }
 
-    public void question(Dictionary dictionary) {
+    public void question() {
         int quest = gameMenu();
         for (int i = 1; i <= quest; i++) {
             Map.Entry<String, String> randomEntry;

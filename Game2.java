@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
@@ -20,14 +19,14 @@ public class Game2 {
         random = new Random();
     }
 
-    public int gameMenu() {
+    private int gameMenu() {
         System.out.println("Chọn số câu hỏi (1 - 20): ");
         int quest = scanner.nextInt();
         scanner.nextLine();
         return quest;
     }
 
-    public void question(Dictionary dictionary) {
+    public void question() {
         int quest = gameMenu();
         for (int i = 1; i <= quest; i++) {
             Map.Entry<String, String> randomEntry;
