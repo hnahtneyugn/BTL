@@ -18,6 +18,7 @@ public class DictionaryManagement {
     public int appMode() {
         while (true) {
             int mode = scanner.nextInt();
+            scanner.nextLine();
             if (0 <= mode && mode <= 9) {
                 return mode;
             }
@@ -28,6 +29,7 @@ public class DictionaryManagement {
     public int gameMode() {
         while (true) {
             int gameMode = scanner.nextInt();
+            scanner.nextLine();
             if (1 <= gameMode && gameMode <= 3) {
                 return gameMode;
             }
@@ -87,13 +89,34 @@ public class DictionaryManagement {
      * @param dictionary stores all words
      */
     public void dictionaryLookup(Dictionary dictionary) {
-        System.out.println("Nhập từ cần tra nghĩa: ");
-        scanner.nextLine();
-        String lookupWord = scanner.nextLine();
-        if(dictionary.getWords().containsKey(lookupWord)){
-            System.out.println("Từ này có nghĩa là: " + dictionary.getWords().get(lookupWord));
-        }else{
-            System.out.println("Từ này không tồn tại trong từ điển! Hãy thử lại! ");
+        boolean check = true;
+        while(check){
+            System.out.println("Bạn muốn tra từ bằng phương thức nào:");
+            System.out.println("1. Tra từ bằng từ điển của chúng tôi");
+            System.out.println("2. Tra từ bằng API translate");
+            int mode = scanner.nextInt();
+            scanner.nextLine();
+            switch (mode) {
+                case 1:
+                    System.out.println("Nhập từ cần tra nghĩa: ");
+                    String lookupWord = scanner.nextLine();
+                    if(dictionary.getWords().containsKey(lookupWord)){
+                        System.out.println("Từ này có nghĩa là: " + dictionary.getWords().get(lookupWord));
+                    }else{
+                        System.out.println("Từ này không tồn tại trong từ điển! Hãy thử lại! ");
+                    }
+                    check = false;
+                    break;
+                case 2:
+                    System.out.println("Nhập từ cần tra nghĩa: ");
+                    String text = scanner.nextLine();
+                    System.out.println("Từ này có nghĩa là: " + API.translate("en", "vi", text));
+                    check = false;
+                    break;
+                default:
+                    System.out.println("Không hợp lệ. Vui lòng chọn lại!");
+                    break;
+            }
         }
     }
 
@@ -115,18 +138,21 @@ public class DictionaryManagement {
     public void playGame(Dictionary dictionary) throws IOException {
         insertFromFile(dictionary, "dictionaries.txt");
         System.out.println("Chọn game của bạn (1-3): ");
-        System.out.println("Game 1: Đoán từ tiếng Anh!\nGame2: Đoán chữ cái còn thiếu!\nGame 3: Chọn đáp án chính xác!");
+        System.out.println("Game 1: Đoán từ tiếng Anh!\nGame 2: Đoán chữ cái còn thiếu!\nGame 3: Chọn đáp án chính xác!");
         int gameMode = gameMode();
         switch(gameMode) {
             case 1:
-                Game1 game1 = new Game1();
-                game1.question(dictionary);
+                Game1 game1 = new Game1(dictionary);
+                game1.question();
+                break;
             case 2:
-                Game2 game2 = new Game2();
-                game2.question(dictionary);
+                Game2 game2 = new Game2(dictionary);
+                game2.question();
+                break;
             case 3:
-                Game3 game3 = new Game3();
-
+                Game3 game3 = new Game3(dictionary);
+                game3.question();
+                break;
         }
 
     }
@@ -175,6 +201,7 @@ public class DictionaryManagement {
         bw.close();
     }
 
+
     /**
      * Allow user to choose which mode/function to call conveniently.
      * @param dictionary stores all words
@@ -217,7 +244,8 @@ public class DictionaryManagement {
                     dictionaryExportToFile(dictionary);
                     break;
             }
-            Wait.wait(1000);
+            System.out.println("Nhấp Enter để kết thúc chương trình!");
+            scanner.nextLine();
         }
     }
 }
