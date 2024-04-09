@@ -2,64 +2,146 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
-import java.util.Random;
-import java.util.Scanner;
 
-public class Game1 {
-    private final Scanner scanner;
-    private final List<Map.Entry<String, String>> entryList;
-    private final List<Map.Entry<String, String>> questionList;
-    private final Random random;
-    private final char[] answers = { 'A', 'B', 'C', 'D' };
-
-    public Game1(Dictionary dictionary) {
-        scanner = new Scanner(System.in);
-        entryList = new ArrayList<>(dictionary.getWords().entrySet());
-        questionList = new ArrayList<>();
-        random = new Random();
+public class Game1 extends PlayGame {    
+    protected static List<Map.Entry<String, String>> entryList = new ArrayList<>(dictionaryGame.entrySet());
+    protected static List<Map.Entry<String, String>> questionList = new ArrayList<>();
+    protected static char[] answers = {'A', 'B', 'C', 'D'};
+    
+    public static void menuGame1() {
+        System.out.println("Có 2 chế độ chơi: ");
+        System.out.println("[1] Tìm nghĩa tiếng viêt");
+        System.out.println("[2] Tìm từ tiếng anh");
+        System.out.println("Xin mời bạn chọn chế độ: ");
+    }
+    public static int gameMode1() {
+        while (true) {
+            try {
+                int gameMode = scanner.nextInt();
+                scanner.nextLine();
+                if (1 <= gameMode && gameMode <= 2) {
+                    return gameMode;
+                }
+                System.out.println("Hành động bạn chọn không được hỗ trợ!");
+            } catch (Exception e) {
+                System.out.println("Dữ liệu đầu vào không hợp lệ!");
+                scanner.nextLine();
+            }
+        }
+    }
+    public static int numberQuestions(){
+        while (true) {
+            try {
+                System.out.println("Chọn số câu hỏi bạn muốn trả lời: ");
+                int numQuestions = scanner.nextInt();
+                scanner.nextLine();
+                return numQuestions;
+            } catch (Exception e) {
+                System.out.println("Dữ liệu đầu vào không hợp lệ!");
+                scanner.nextLine();
+            }
+        }
+    }
+    public static Map.Entry<String, String> getRandomQuestion() {
+        while (true) {
+            Map.Entry<String, String> temporaryEntry = entryList.get(random.nextInt(entryList.size()));
+            if (!questionList.contains(temporaryEntry)) {
+                questionList.add(temporaryEntry);
+                return temporaryEntry;
+            }
+        }
     }
 
-    public int gameMenu() {
-        System.out.println("Chọn số câu hỏi (1 - 20): ");
-        int quest = scanner.nextInt();
-        scanner.nextLine();
-        return quest;
+    public static List<String> generateOptionsVietnamese(String correctAnswer) {
+        List<String> options = new ArrayList<>();
+        options.add(correctAnswer);
+        while (options.size() < 4) {
+            Map.Entry<String, String> randomWrongEntry = entryList.get(random.nextInt(entryList.size()));
+            if (!options.contains(randomWrongEntry.getValue())) {
+                options.add(randomWrongEntry.getValue());
+            }
+        }
+        Collections.shuffle(options);
+        return options;
     }
 
-    public void question() {
-        int quest = gameMenu();
-        for (int i = 1; i <= quest; i++) {
-            Map.Entry<String, String> randomEntry;
-            while (true) {
-                Map.Entry<String, String> temporaryEntry = entryList.get(random.nextInt(entryList.size()));
-                if (!questionList.contains(temporaryEntry)) {
-                    questionList.add(temporaryEntry);
-                    randomEntry = temporaryEntry;
-                    break;
+    public static List<String> generateOptionsEnglish(String correctAnswer) {
+        List<String> options = new ArrayList<>();
+        options.add(correctAnswer);
+        while (options.size() < 4) {
+            Map.Entry<String, String> randomWrongEntry = entryList.get(random.nextInt(entryList.size()));
+            if (!options.contains(randomWrongEntry.getKey())) {
+                options.add(randomWrongEntry.getKey());
+            }
+        }
+        Collections.shuffle(options);
+        return options;
+    }
+
+    public static void displayOptions(List<String> options) {
+        for (int k = 0; k < options.size(); k++) {
+            System.out.println(answers[k] + ". " + options.get(k));
+        }
+    }
+
+    public static void checkAnswer(List<String> options, String correctAnswer) {
+        while (true) {
+            try {
+                System.out.println("Câu trả lời của bạn: ");
+                String answer = scanner.nextLine();
+                int yourAnswer = Character.toUpperCase(answer.charAt(0)) - 'A';
+                if (options.get(yourAnswer).equalsIgnoreCase(correctAnswer.trim())) {
+                    System.out.println("Đáp án của bạn chính xác!");
+                } else {
+                    System.out.println("Rất tiếc đáp án của bạn sai rồi:( Đáp án chính xác là: " + correctAnswer);
                 }
-            }
-            System.out.println("Câu hỏi " + i + ": Hãy cho biết từ tiếng anh nào có nghĩa là: " + randomEntry.getValue());
-            List<String> options = new ArrayList<>();
-            options.add(randomEntry.getKey());
-            while (options.size() < 4) {
-                Map.Entry<String, String> randomWrongEntry = entryList.get(random.nextInt(entryList.size()));
-                if (!options.contains(randomWrongEntry.getKey())) {
-                    options.add(randomWrongEntry.getKey());
-                }
-            }
-            Collections.shuffle(options);
-            for (int k = 0; k < options.size(); k++) {
-                System.out.println(answers[k] + ". " + options.get(k));
-            }
-            System.out.println("Câu trả lời của bạn: ");
-            String answer = scanner.nextLine();
-            int yourAnswer = Character.toUpperCase(answer.charAt(0)) - 'A';
-            if (options.get(yourAnswer).equalsIgnoreCase(randomEntry.getKey().trim())) {
-                System.out.println("Đáp án của bạn chính xác!");
-            } else {
-                System.out.println("Rất tiếc đáp án của bạn sai rồi:( Đáp án chính xác là: " + randomEntry.getKey());
+                break;
+            } catch (Exception e) {
+                System.out.println("Dữ liệu đầu vào không hợp lệ!");
             }
         }
 
+    }
+    //chế độ 1
+    public static void askQuestionEnglish(Map.Entry<String, String> randomEntry, int questionNumber) {
+        System.out.println("Câu hỏi " + questionNumber + ": Hãy cho biết nghĩa của từ tiếng anh sau: " + randomEntry.getKey());
+        List<String> options = generateOptionsVietnamese(randomEntry.getValue());
+        displayOptions(options);
+        checkAnswer(options, randomEntry.getValue());
+    }
+    //chế độ 1
+    public static void askQuestionsEnglish(int numQuestions) {
+        for (int i = 1; i <= numQuestions; i++) {
+            Map.Entry<String, String> randomEntry = getRandomQuestion();
+            askQuestionEnglish(randomEntry, i);
+        }
+    }
+    //chế độ 2
+    public static void askQuestionVietnamese(Map.Entry<String, String> randomEntry, int questionNumber) {
+        System.out.println("Câu hỏi " + questionNumber + ": Hãy cho biết từ tiếng anh nào có nghĩa là: " + randomEntry.getValue());
+        List<String> options = generateOptionsEnglish(randomEntry.getKey());
+        displayOptions(options);
+        checkAnswer(options, randomEntry.getKey());
+    }
+    //chế độ 2
+    public static void askQuestionsVietnamese(int numQuestions) {
+        for (int i = 1; i <= numQuestions; i++) {
+            Map.Entry<String, String> randomEntry = getRandomQuestion();
+            askQuestionVietnamese(randomEntry, i);
+        }
+    }
+
+    public static void playGame1() {
+        menuGame1();
+        int gameMode = gameMode1();
+        int numQuestions = numberQuestions();
+        switch(gameMode) {
+            case 1:
+                askQuestionsEnglish(numQuestions);
+                break;
+            case 2:
+                askQuestionsVietnamese(numQuestions);
+                break;
+        }
     }
 }

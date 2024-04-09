@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "BTL_632b6eb"
+        },
+        {
+            "type": "java",
             "name": "Game3",
             "request": "launch",
             "mainClass": "Game3",

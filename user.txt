@@ -1,1167 +1,1167 @@
-Abandon	bỏ rơi
-Ability	khả năng
-Able	có khả năng
-About	về
-Above	phía trên
-Abroad	ở nước ngoài
-Absence	sự vắng mặt
-Absolute	tuyệt đối
-Absolutely	tuyệt đối
-Absorb	hấp thụ
-Abuse	lạm dụng
-Academic	học thuật
-Accept	chấp nhận
-Acceptable	chấp nhận được
-Access	tiếp cận
-Accident	tai nạn
-Accommodate	cung cấp chỗ ở
-Accommodation	chỗ ở
-Accompany	đi theo
-According	theo
-Account	tài khoản
-Accuracy	độ chính xác
-Accurate	chính xác
-Accuse	buộc tội
-Achieve	đạt được
-Achievement	thành tựu
-Acid	axit
-Acknowledge	thừa nhận
-Acquisition	sự đạt được
-Across	băng qua
-Act	hành động
-Action	hành động
-Active	hoạt động
-Activity	hoạt động
-Actor	diễn viên
-Actress	nữ diễn viên
-Actual	thực tế
-Actually	thực sự
-Ad	quảng cáo
-Adapt	thích nghi
-Add	thêm vào
-Addition	sự thêm vào
-Additional	bổ sung
-Address	địa chỉ
-Adequate	đủ
-Adjective	tính từ
-Adjust	điều chỉnh
-Adjustment	sự điều chỉnh
-Administer	quản lý
-Administration	quản lý
-Administrative	hành chính
-Administrator	người quản lý
-Admission	sự nhập học
-Admit	thừa nhận
-Adolescence	tuổi dậy thì
-Adolescent	thanh thiếu niên
-Adopt	áp dụng
-Adoption	sự áp dụng
-Adult	người lớn
-Advance	tiến bộ
-Advanced	tiên tiến
-Advantage	ưu điểm
-Adventure	cuộc phiêu lưu
-Advertising	quảng cáo
-Advice	lời khuyên
-Advise	khuyên
-Affair	việc
-Afford	đủ khả năng
-Afraid	sợ
-African	người châu Phi
-After	sau
-Afternoon	buổi chiều
-Again	lại
-Against	phản đối
-Age	tuổi
-Agency	cơ quan
-Agent	đại lý
-Aggression	sự xâm lược
-Aggressive	xâm lược
-Ago	trước đây
-Agree	đồng ý
-Agreement	sự đồng ý
-Ahead	phía trước
-Aid	sự giúp đỡ
-AIDS	kiết hợp HIV
-Aim	mục tiêu
-Air	không khí
-Aircraft	máy bay
-Airline	hãng hàng không
-Airport	sân bay
-Alarm	báo động
-Album	album
-Alcohol	ruợu
-Alive	sống
-All	tất cả
-Alliance	liên minh
-Allocate	phân bổ
-Allow	cho phép
-Allowance	trợ cấp
-Almost	gần như
-Alone	một mình
-Along	theo
-Already	đã
-Also	cũng
-Alter	thay đổi
-Alternative	lựa chọn
-Although	mặc dù
-Always	luôn luôn
-Amateur	nghiệp dư
-Amazing	đáng kinh ngạc
-Ambassador	đại sứ
-Ambition	nguyện vọng
-Ambitious	đầy tham vọng
-Amenity	tiện ích
-Among	giữa
-Amount	số lượng
-Analysis	phân tích
-Analyst	nhà phân tích
-Ancient	cổ xưa
-And	và
-Anger	sự tức giận
-Angle	góc
-Angry	tức giận
-Animal	động vật
-Anniversary	kỷ niệm
-Announce	tuyên bố
-Annual	hàng năm
-Another	một cái khác
-Answer	trả lời
-Ant	khẩu
-Anticipate	dự đoán
-Anxiety	nỗi lo âu
-Anxious	buồn phiền
-Any	bất kỳ
-Anybody	bất kỳ ai
-Anymore	không nữa
-Anyone	bất kỳ ai
-Anything	bất kỳ thứ gì
-Anyway	dù sao đi nữa
-Anywhere	bất cứ nơi nào
-Apart	không kết nối
-Apartment	căn hộ
-Apologize	xin lỗi
-Apology	lời xin lỗi
-Apparent	rõ ràng
-Apparently	hoàn toàn có vẻ
-Appeal	kêu gọi
-Appear	xuất hiện
-Appearance	sự xuất hiện
-Apple	quả táo
-Applicant	người xin việc
-Application	ứng dụng
-Apply	áp dụng
-Appoint	bổ nhiệm
-Appointment	cuộc hẹn
-Appreciate	đánh giá cao
-Appreciation	sự đánh giá cao
-Approach	tiếp cận
-Approve	chấp thuận
-Approximately	khoảng
-April	tháng tư
-Arab	người Ả Rập
-Arbitrary	tùy ý
-Architecture	kiến trúc
-Area	khu vực
-Argue	tranh luận
-Argument	điều luận
-Arise	xuất phát
-Arm	cánh tay
-Army	quân đội
-Around	xung quanh
-Arrange	sắp xếp
-Arrangement	sự sắp xếp
-Arrest	bắt giữ
-Arrival	sự đến
-Arrive	đến
-Art	nghệ thuật
-Article	bài báo
-Artificial	nhân tạo
-Artist	nghệ sĩ
-As	như
-Ash	hàn
-Asian	người Á Châu
-Aside	bên cạnh
-Ask	hỏi
-Asleep	ngủ
-Aspect	góc độ
-Assault	tấn công
-Assert	đòi hỏi
-Assessment	đánh giá
-Asset	tài sản
-Assign	giao
-Assignment	nhiệm vụ
-Assist	hỗ trợ
-Assistance	sự giúp đỡ
-Assistant	trợ lý
-Associate	liên kết
-Association	hội
-Assume	giả định
-Assumption	giả định
-Assure	đảm bảo
-At	tại
-Athlete	vận động viên
-Athletic	thể thao
-Atmosphere	bầu không khí
-Attach	gắn kết
-Attachment	đính kèm
-Attack	tấn công
-Attempt	cố gắng
-Attend	tham dự
-Attendance	sự tham dự
-Attention	sự chú ý
-Attitude	thái độ
-Attorney	luật sư
-Attract	lôi kéo
-Attraction	nơi thu hút
-Attractive	hấp dẫn
-Attribute	đặc tính
-Audience	đám đông
-August	tháng tám
-Aunt	cô
-Author	tác giả
-Authority	quyền lực
-Auto	tự động
-Available	sẵn có
-Average	trung bình
-Avoid	tránh
-Award	phần thưởng
-Aware	hiểu biết
-Awareness	sự nhận thức
-Away	đi xa
-Awful	kinh khủng
-Baby	em bé
-Back	phía sau
-Background	phông nền
-Backward	ngược lại
-Bacteria	vi khuẩn
-Bad	xấu
-Badly	một cách tồi tệ
-Bag	túi
-Balance	cân bằng
-Ball	bóng
-Ban	cấm
-Band	băng nhóm
-Bank	nhà băng
-Bar	quán bar
-Base	cơ sở
-Baseball	bóng chày
-Basic	cơ bản
-Basically	cơ bản
-Basis	cơ sở
-Basket	rổ
-Basketball	bóng rổ
-Bathroom	phòng tắm
-Battery	pin
-Battle	trận đánh
-Bay	vịnh
-Be	là
-Beach	bãi biển
-Bean	hạt đậu
-Bear	gấu
-Beat	đánh bại
-Beautiful	đẹp
-Beauty	vẻ đẹp
-Because	bởi vì
-Become	trở thành
-Bed	giường
-Bedroom	phòng ngủ
-Beef	thịt bò
-Before	trước
-Begin	bắt đầu
-Beginning	bắt đầu
-Behave	hành xử
-Behavior	hành vi
-Behind	ở phía sau
-Being	đang tồn tại
-Belief	tin tưởng
-Believe	tin
-Bell	chuông
-Belong	thuộc về
-Below	dưới
-Belt	dây đai
-Bench	ghế đá
-Bend	uốn cong
-Beneath	dưới
-Benefit	lợi ích
-Beside	bên cạnh
-Besides	ngoài ra
-Best	tốt nhất
-Bet	cược
-Better	tốt hơn
-Between	giữa
-Beyond	vượt ra ngoài
-Bible	Kinh Thánh
-Big	lớn
-Bike	xe đạp
-Bill	hóa đơn
-Billion	tỷ
-Bind	buộc
-Biological	sinh học
-Bird	chim
-Birth	sinh
-Birthday	sinh nhật
-Bit	một chút
-Bite	cắn
-Black	đen
-Blame	trách móc
-Blank	trống
-Blanket	chiếu
-Blame	trách móc
-Blind	mù
-Block	khối
-Blood	máu
-Blow	thổi
-Blue	màu xanh da trời
-Board	hội đồng
-Boat	thuyền
-Body	cơ thể
-Bomb	quả bom
-Bombing	sự đánh bom
-Bond	kết nối
-Bone	xương
-Book	sách
-Boom	tăng trưởng nhanh chóng
-Boot	ủng
-Border	biên giới
-Born	sinh ra
-Borrow	mượn
-Boss	sếp
-Both	cả hai
-Bother	làm phiền
-Bottle	chai
-Bottom	đáy
-Bound	liên quan
-Boundary	ranh giới
-Bow	cung
-Bowl	tô
-Box	hộp
-Boy	trai
-Boyfriend	bạn trai
-Brain	não
-Branch	chi nhánh
-Brand	thương hiệu
-Bread	bánh mì
-Break	pause
-Breakfast	bữa sáng
-Breast	vú
-Breath	hơi thở
-Breathe	thở
-Breathing	hít thở
-Brick	gạch
-Bridge	cây cầu
-Brief	tóm tắt
-Briefly	tóm tắt
-Bright	sáng
-Brilliant	lộng lẫy
-Bring	mang
-British	người Anh
-Broad	rộng
-Broadcast	phát sóng
-Broken	hỏng
-Brother	anh em trai
-Brown	nâu
-Brush	chổi
-Buck	đô la
-Budget	kinh phí
-Build	xây dựng
-Building	toà nhà
-Bullet	đạn
-Bunch	nhóm
-Burden	gánh nặng
-Burn	đốt cháy
-Bury	chôn
-Bus	xe buýt
-Business	doanh nghiệp
-Busy	bận rộn
-But	nhưng
-Butter	bơ
-Button	nút
-Buy	mua
-Buyer	khách hàng
-By	bởi
-Cabinet	tủ
-Cable	dây cáp
-Cake	bánh
-Calculate	tính toán
-Calculation	sự tính toán
-Call	gọi
-Camera	máy ảnh
-Camp	trại
-Campaign	chiến dịch
-Campus	khuôn viên
-Can	có thể
-Canadian	người Canada
-Cancer	ung thư
-Candidate	ứng viên
-Candle	nến
-Cannot	không thể
-Canvas	vải
-Cap	mũ lưỡi trai
-Capability	khả năng
-Capacity	sức chứa
-Capital	thủ đô
-Captain	đội trưởng
-Capture	bắt
-Car	xe hơi
-Card	thẻ
-Care	quan tâm
-Career	nghề nghiệp
-Careful	cẩn thận
-Carefully	cẩn thận
-Carry	mang
-Case	trường hợp
-Cash	tiền mặt
-Cast	đúc
-Cat	mèo
-Catch	bắt
-Category	hạng mục
-Catholic	Công giáo
-Cause	nguyên nhân
-Ceiling	trần nhà
-Celebrate	kỷ niệm
-Celebration	lễ kỷ niệm
-Cell	tế bào
-Cemetery	nghĩa trang
-Center	trung tâm
-Central	trung tâm
-Century	thế kỷ
-CEO	Tổng giám đốc điều hành
-Ceremony	nghi lễ
-Certain	chắc chắn
-Certainly	chắc chắn
-Certificate	chứng chỉ
-Chain	xích
-Chair	ghế
-Chairman	chủ tịch
-Challenge	thách thức
-Chamber	phòng
-Chance	cơ hội
-Change	thay đổi
-Changing	thay đổi
-Channel	kênh
-Chapter	chương
-Character	ký tự
-Characteristic	đặc điểm
-Characterize	đặc trưng
-Charge	tính phí
-Charity	từ thiện
-Chart	bảng biểu
-Chase	truy đuổi
-Cheap	rẻ
-Check	kiểm tra
-Cheek	má
-Cheese	pho mát
-Chef	đầu bếp
-Chemical	hóa học
-Chest	ngực
-Chicken	gà
-Chief	chủ
-Child	trẻ em
-Childhood	thời thơ ấu
-Chinese	người Trung Quốc
-Chip	vi chip
-Chocolate	sô cô la
-Choice	lựa chọn
-Choose	chọn
-Christian	người Kitô giáo
-Christmas	Giáng sinh
-Church	ngôi nhà thờ
-Cigarette	tràng
-Circle	vòng tròn
-Circumstance	tình huống
-Citizen	công dân
-City	thành phố
-Civil	dân sự
-Claim	đòi hỏi
-Class	lớp học
-Classic	kiểu cách
-Classroom	phòng học
-Clean	sạch sẽ
-Clear	rõ ràng
-Clearly	rõ ràng
-Client	khách hàng
-Climate	khí hậu
-Climb	leo lên
-Clinic	phòng khám
-Clinical	điều trị lâm sàng
-Clock	đồng hồ
-Close	gần
-Closed	kín
-Closet	tủ quần áo
-Cloth	vải
-Clothes	quần áo
-Clothing	quần áo
-Cloud	mây
-Club	câu lạc bộ
-Clue	gợi ý
-Cluster	cụm
-Coach	huấn luyện viên
-Coal	than đá
-Coast	bờ biển
-Coat	áo choàng
-Code	mã
-Coffee	cà phê
-Cognitive	cơ động
-Coin	đồng xu
-Cold	lạnh
-Collaboration	hợp tác
-Collapse	sụp đổ
-Colleague	đồng nghiệp
-Collect	ghi
-Collection	bộ sưu tập
-Collector	người thu gom
-College	trường đại học
-Colonial	thuộc thuộc địa
-Color	màu
-Column	cột
-Combination	kết hợp
-Combine	kết hợp
-Come	đến
-Comedy	hài kịch
-Comfort	thoải mái
-Comfortable	thoải mái
-Command	ra lệnh
-Commander	người chỉ huy
-Comment	bình luận
-Commercial	thương mại
-Commission	ủy ban
-Commit	ủng hộ
-Commitment	ấn tượng
-Committee	ủy ban
-Common	chung
-Commonly	thường
-Communicate	giao tiếp
-Communication	giao tiếp
-Community	cộng đồng
-Company	công ty
-Comparable	tương tự
-Compare	so sánh
-Comparison	so sánh
-Compel	ep buộc
-Compensation	bồi thường
-Compete	cạnh tranh
-Competition	cạnh tranh
-Competitive	cạnh tranh
-Competitor	đối thủ
-Complain	phàn nàn
-Complaint	kháng nghị
-Complete	hoàn thành
-Completely	hoàn toàn
-Complex	phức tạp
-Complexity	phức tạp
-Complicate	làm phức tạp
-Complicated	phức tạp
-Component	thành phần
-Compose	sáng tác
-Composition	bài luận
-Comprehensive	toàn diện
-Comprise	bao gồm
-Compromise	thỏa hiệp
-Computer	máy tính
-Concentrate	tập trung
-Concentration	sự tập trung
-Concept	khái niệm
-Concern	quan tâm
-Concerned	quan tâm
-Concert	hội nhạc
-Conclusion	kết luận
-Concrete	bê tông
-Condition	điều kiện
-Conduct	hành vi
-Conference	hội nghị
-Confidence	tự tin
-Confident	tự tin
-Confirm	xác nhận
-Conflict	xung đột
-Confront	đối đầu
-Confuse	giống
-Confusion	sự lúng túng
-Congress	quốc hội
-Connect	kết nối
-Connection	kết nối
-Conscious	tiềm thức
-Consequence	hậu quả
-Conservative	bảo thủ
-Consider	xem xét
-Considerable	khá
-Consideration	sự xem xét
-Consist	gồm có
-Constant	liên tục
-Constantly	liên tục
-Constitute	cấu tạo
-Constitution	hiến pháp
-Construction	xây dựng
-Consult	tham khảo
-Consultant	cố vấn
-Consultation	sự tham khảo
-Consumer	khách hàng
-Consumption	tiêu thụ
-Contact	tiếp xúc
-Contain	chứa
-Container	thùng chứa
-Contemporary	đương đại
-Content	nội dung
-Contest	tranh giành
-Context	bối cảnh
-Continue	tiếp tục
-Continued	tiếp tục
-Contract	hợp đồng
-Contrast	sự tương phản
-Contribute	góp phần
-Contribution	đóng góp
-Control	kiểm soát
-Controversial	gây tranh cãi
-Controversy	tranh cãi
-Convenience	tiện lợi
-Convenient	thuận tiện
-Convention	hiệp định
-Conventional	truyền thống
-Conversation	cuộc trò chuyện
-Convert	chuyển đổi
-Conviction	tin ngưỡng
-Convince	thuyết phục
-Cook	nấu ăn
-Cookie	bánh quy
-Cooking	nấu nướng
-Cool	mát mẻ
-Cooperation	hợp tác
-Cooperative	hợp tác
-Coordinate	phối hợp
-Coordination	sự phối hợp
-Cop	cảnh sát
-Cope	chịu đựng
-Copy	sao chép
-Core	cốt lõi
-Corn	lúa mạch
-Corner	góc
-Corporate	doanh nghiệp
-Corporation	tập đoàn
-Correct	correct
-Correctly	correctly
-Correlation	tương quan
-Correspond	phù hợp
-Correspondent	phóng viên
-Corruption	tham nhũng
-Cost	giá cả
-Cottage	nhà tranh
-Cotton	bông
-Couch	sofa
-Could	có thể
-Council	hội đồng
-Counsel	loại bỏ
-Counseling	tư vấn
-Counselor	cố vấn
-Count	đếm
-Counter	quầy thu ngân
-Country	đất nước
-County	hạt
-Couple	cặp
-Courage	dũng khí
-Course	khóa học
-Court	tòa án
-Cousin	anh em họ
-Cover	phủ
-Coverage	phạm vi
-Cow	bò
-Crack	nứt
-Craft	nghề thủ công
-Crash	tai nạn
-Crazy	điên
-Cream	kem
-Create	tạo
-Creation	tạo ra
-Creative	sáng tạo
-Creativity	sáng tạo
-Creature	sinh vật
-Credit	tín dụng
-Crew	phi hành đoàn
-Crime	tội ác
-Criminal	phạm tội
-Crisis	khủng hoảng
-Criteria	tiêu chí
-Critic	nhà phê bình
-Critical	chính trị
-Criticism	sự phê bình
-Critique	bình luận
-Crop	vụ mùa
-Cross	băng qua
-Crowd	đám đông
-Crown	vương miện
-Crucial	rất quan trọng
-Cry	kêu lên
-Cultural	văn hóa
-Culture	văn hóa
-Cup	cốc
-Cure	chữa
-Curiosity	tò mò
-Curious	tò mò
-Currency	tiền tệ
-Current	hiện tại
-Currently	hiện nay
-Curriculum	chương trình giảng dạy
-Curve	đường cong
-Custom	thói quen
-Customer	khách hàng
-Cut	cắt
-Cycle	vòng lặp
-Dad	bố
-Daily	hằng ngày
-Damage	tổn thương
-Dance	vũ
-Danger	nguy hiểm
-Dangerous	nguy hiểm
-Dark	tối
-Darkness	bóng tối
-Data	dữ liệu
-Database	cơ sở dữ liệu
-Date	ngày
-Daughter	con gái
-Day	ngày
-Dead	chết
-Deadline	hạn chót
-Deal	điều khoản
-Dealer	người bán hàng
-Dear	quý
-Death	sự chết
-Debate	tranh luận
-Debt	nợ
-Decade	thập kỷ
-Decide	quyết định
-Decision	sự quyết định
-Declare	tuyên bố
-Decline	suống giảm
-Decorate	trang trí
-Decoration	trang trí
-Decrease	giảm
-Deep	sâu
-Deeply	một cách sâu sắc
-Deer	hươu
-Defeat	thất bại
-Defend	bảo vệ
-Defendant	bị cáo
-Defense	bảo vệ
-Defensive	phòng thủ
-Deficit	phát hành
-Define	xác định
-Definition	định nghĩa
-Degree	bằng cấp
-Delay	trì hoãn
-Deliver	giao hàng
-Delivery	giao hàng
-Demand	yêu cầu
-Democracy	dân chủ
-Democratic	dân chủ
-Demonstrate	đưa ra
-Demonstration	demonstration
-Deny	từ chối
-Department	bộ phận
-Depend	phụ thuộc
-Dependent	phụ thuộc
-Depending	tùy thuộc
-Depict	miêu tả
-Depression	ảm đạm
-Depth	sâu
-Deputy	phó
-Derive	phát xuất
-Describe	mô tả
-Description	sự mô tả
-Desert	sa mạc
-Deserve	xứng đáng
-Design	thiết kế
-Designer	người thiết kế
-Desire	khao khát
-Desk	bàn làm việc
-Desperate	tuyệt vọng
-Despite	mặc dù
-Destroy	phá hủy
-Destruction	sự phá hủy
-Detail	chi tiết
-Detailed	chi tiết
-Determine	xác định
-Develop	phát triển
-Development	phát triển
-Device	thiết bị
-Devote	hiến
-Dial	gọi
-Dialogue	đối thoại
-Die	chết
-Diet	chế độ ăn
-Differ	khác nhau
-Difference	sự khác biệt
-Different	khác biệt
-Differently	một cách khác biệt
-Difficult	khó khăn
-Difficulty	khó khăn
-Dig	khám phá
-Digital	kỹ thuật số
-Dimension	kích thước
-Dining	ăn uống
-Dinner	bữa tối
-Direct	trực tiếp
-Direction	hướng
-Directly	trực tiếp
-Director	giám đốc
-Dirt	bụi bẩn
-Dirty	bẩn
-Disability	tàn tật
-Disappear	mất
-Disappoint	thất vọng
-Disappointment	thất vọng
-Disaster	thảm họa
-Discipline	kỷ luật
-Disclose	tiết lộ
-Discount	chiết khấu
-Discover	khám phá
-Discovery	khám phá
-Discuss	bàn luận
-Discussion	thảo luận
-Disease	bệnh
-Disk	đĩa
-Dismiss	bãi bỏ
-Disorder	loạn thất
-Display	hiển thị
-Dispute	tranh chấp
-Distance	khoảng cách
-Distant	xa xôi
-Distinct	rõ ràng
-Distinction	sự phân biệt
-Distinguish	phân biệt
-Distribute	phân phối
-Distribution	phân phối
-District	khu vực
-Disturb	làm phiền
-Diverse	đa dạng
-Diversity	sự đa dạng
-Divide	chia
-Division	phân cấp
-Divorce	ly dị
-DNA	DNA
-Do	làm
-Doctor	bác sĩ
-Document	tài liệu
-Dog	chó
-Domestic	nội địa
-Dominant	kiểm soát
-Dominate	chiếm ưu thế
-Door	cửa
-Double	gấp đôi
-Doubt	nghi ngờ
-Down	xuống
-Downtown	trung tâm thành phố
-Dozen	mười hai
-Draft	bản nháp
-Drag	kéo
-Drama	kịch
-Dramatic	mạnh mẽ
-Draw	vẽ
-Drawer	kệ ngăn kéo
-Drawing	bản vẽ
-Dream	mơ ước
-Dress	ăn mặc
-Drink	uống
-Drive	điều khiển
-Driver	tài xế
-Drop	giảm
-Drug	thuốc
-Dry	khô
-Dual	đôi
-Due	đến hạn
-Dull	chán chường
-During	trong suốt
-Dust	bụi
-Duty	nhiệm vụ
-Each	mỗi
-Eager	hăm hở
-Ear	tai
-Early	sớm
-Earn	kiếm được
-Earnings	lợi nhuận
-Earth	Trái đất
-Ease	dễ dàng
-Easily	dễ dàng
-East	phía đông
-Eastern	đông
-Easy	dễ dàng
-Eat	ăn
-Economic	kinh tế
-Economics	kinh tế học
-Economist	người kinh tế học
-Economy	nền kinh tế
-Edge	lề
-Edition	bản
-everybody mọi người
-Everyday hàng ngày
-Everyone mọi người
-Everything mọi thứ
-Everywhere mọi nơi
-Evidence bằng chứng
-Evolution tiến hóa
-Evolve tiến hóa
-Exact chính xác
-Exactly đúng
-Exam kỳ thi
-Examination kiểm tra
-Examine kiểm tra
-Example ví dụ
-Excellent xuất sắc
-Except trừ
-Exception ngoại lệ
-Exchange trao đổi
-Exciting thú vị
-Exclude loại trừ
-Exclusive duy nhất
-Excuse lý do
-Executive cố vấn
-Exercise bài tập
-Exhibit trưng bày
-Exhibition trưng bày
-Exist tồn tại
-Existence sự tồn tại
-Exit lối thoát
-Expand mở rộng
-Expansion mở rộng
-Expect mong đợi
-Expectation sự mong đợi
-Expense chi phí
-Expensive đắt tiền
-Experience kinh nghiệm
-Experienced đã có kinh nghiệm
-Experiment thí nghiệm
-Expert chuyên gia
-Explain giải thích
-Explanation sự giải thích
-Explode nổ
-Exploit khai thác
-Exploration khám phá
-Explore khám phá
-Export xuất khẩu
-Expose tiết lộ
-Exposure sự tiếp xúc
-Express bày tỏ
-Expression biểu lộ
-Extend mở rộng
-Extension sự mở rộng
-Extensive rộng lớn
-Extent quy mô
-External bên ngoài
-Extra phụ
-Extraordinary phi thường
-Extreme cực kỳ
-Extremely rất
-Eye mắt
-Face khuôn mặt
-Facility cơ sở vật chất
-Fact sự thật
-Factor yếu tố
-Factory nhà máy
-Faculty khoa
-Fail thất bại
-Failure sự thất bại
-Fair công bằng
-Fairly hợp lý
-Faith tin
-Fall rơi
-False sai
-Fame danh tiếng
-Familiar quen thuộc
-Family gia đình
-Famous nổi tiếng
-Fan fan
-Fantastic tuyệt vời
-Far xa
-Farm nông trại
-Farmer nông dân
-Fashion thời trang
-Fast nhanh
-Fat béo
-Fate vận mệnh
-Father cha
-Fault lỗi
-Favorite yêu thích
-Fear nỗi sợ hãi
-Feature đặc điểm
-Federal liên bang
-Fee phí
-Feed cho ăn
-Feel cảm thấy
-Feeling cảm giác
-Fellow bạn đồng nghiệp
-Female nữ giới
-Fence hàng rào
-Few vài
-Fewer ít hơn
-Fiber sợi
-Fiction hư cấu
-Field lĩnh vực
-Fifteen mười lăm
-Fifth thứ năm
-Fifty năm mươi
-Fight tranh đấu
-Fighter nhà vô địch
-Figure hình dáng
-File tệp
-Fill lấp đầy
-Film phim
-Final cuối cùng
-Finally cuối cùng
-Finance tài chính
-Financial tài chính
-Find tìm thấy
-Finding kết quả
-Fine tốt
-Finger ngón tay
-Finish kết thúc
-Fire lửa
-Firm công ty
-First đầu tiên
-Fish cá
-Fishing câu cá
-Fit phù hợp
-Fitness thể lực
-Five năm
-Fix sửa chữa
-Fixed đã được sửa chữa
-Flag cờ
-Flame ngọn lửa
-Flat bằng phẳng
-Flavor vị
-Flee bỏ trốn
-Flesh thịt
-Flight chuyến bay
-Float nổi
-Floor sàn
-Flow lưu chuyển
-Flower hoa
-Fly bay
-Focus tập trung
-Fold gấp
-Folk dân gian
-Follow theo dõi
-Following tiếp theo
-Food thức ăn
-Foot chân
-Football bóng đá
-For cho
-Force lực lượng
-Foreign nước ngoài
-Forest rừng
-Forever mãi mãi
-Forget quên
-Forgive tha thứ
-Form hình thức
-Formal chính thức
-Former trước đây
-Formula công thức
-Fortune vận may
-Forward về phía trước
-Foundation nền tảng
-Frame khung
-Framework khung
-Free miễn phí
-Freedom sự tự do
-Freely một cách tự do
-Freeze đông lạnh
-French Tiếng Pháp
-Frequency tần suất
-Frequent thường xuyên
-Frequently thường xuyên
-Fresh tươi
-Friend bạn bè
-Friendly thân thiện
-Friendship tình bạn
-From từ
-Front phía trước
-Fruit trái cây
-Frustration sự thất vọng
-Fuel nhiên liệu
-Full đầy đủ
-Fully hoàn toàn
-Function chức năng
-Fund quỹ
-Fundamental cơ bản
-Funding khoản tài trợ
-Fun niềm vui
-Funny vui nhộn
-Furniture nội thất
-Further thêm
-Future tương lai
-Gain đạt được
-Galaxy ngân hà
-Gallery phòng trưng bày
-Game trò chơi
-Gap khuyết
-Garage gara
-Garden vườn
-Garlic tỏi
-Gas gas
-Gate cổng
-Gather tập hợp
-Gay gay
-Gaze nhìn chằm chằm
-Gear bánh răng
-Gender giới tính
-Gene gene
-General chung
-Generally thường
-Generate tạo ra
-Generation thế hệ
-Generous hào phóng
-Genetic genet
-Gentle hiền lành
-Gently một cách nhẹ nhàng
-German Tiếng Đức
-Gesture cử chỉ
-Get lấy
-Ghost ma
-Giant khổng lồ
-Gift món quà
-Girl cô gái
-Girlfriend bạn gái
-Give cho
-Given đã cho
-Glad vui mừng
-Glass kính
-Global toàn cầu
-Glove găng tay
-Go đi
-Goal mục tiêu
-God Chúa
-Gold vàng
-Golden vàng
-Golf gôn
-Good tốt
-Govern quản lý
-Government chính phủ
-Governor thống đốc
-Grab nắm lấy
-Grade đánh giá
-Gradually dần dần
-Grain hạt
-Grand lớn
-Grandfather ông
-Grandmother bà
-Grant trao
-Grass cỏ
-Grateful biết ơn
-Great lớn
-Greatly một cách lớn lao
-Greek Tiếng Hy Lạp
-Green xanh lá cây
-Greet chào hỏi
-Gregory Gregory
-Grey xám
-Grid lưới
-Grief nỗi buồn
-Grin cười
-Grip lực cầm
-Grocery cửa hàng tạp hóa
-Ground mặt đất
-Group nhóm
-Grow tăng trưởng
-Growing tăng trưởng
-Growth sự phát triển
-Guarantee bảo đảm
-Guard bảo vệ
-Guess dự đoán
-Guest khách mời
+No	|	English	|	Vietnamese
+1		abandon		bỏ rơi
+2		ability		khả năng
+3		able		có khả năng
+4		about		về
+5		above		phía trên
+6		abroad		ở nước ngoài
+7		absence		sự vắng mặt
+8		absolute		tuyệt đối
+9		absolutely		tuyệt đối
+10		absorb		hấp thụ
+11		abuse		lạm dụng
+12		academic		học thuật
+13		accept		chấp nhận
+14		acceptable		chấp nhận được
+15		access		tiếp cận
+16		accident		tai nạn
+17		accommodate		cung cấp chỗ ở
+18		accommodation		chỗ ở
+19		accompany		đi theo
+20		according		theo
+21		account		tài khoản
+22		accuracy		độ chính xác
+23		accurate		chính xác
+24		accuse		buộc tội
+25		achieve		đạt được
+26		achievement		thành tựu
+27		acid		axit
+28		acknowledge		thừa nhận
+29		acquisition		sự đạt được
+30		across		băng qua
+31		act		hành động
+32		action		hành động
+33		active		hoạt động
+34		activity		hoạt động
+35		actor		diễn viên
+36		actress		nữ diễn viên
+37		actual		thực tế
+38		actually		thực sự
+39		ad		quảng cáo
+40		adapt		thích nghi
+41		add		thêm vào
+42		addition		sự thêm vào
+43		additional		bổ sung
+44		address		địa chỉ
+45		adequate		đủ
+46		adjective		tính từ
+47		adjust		điều chỉnh
+48		adjustment		sự điều chỉnh
+49		administer		quản lý
+50		administration		quản lý
+51		administrative		hành chính
+52		administrator		người quản lý
+53		admission		sự nhập học
+54		admit		thừa nhận
+55		adolescence		tuổi dậy thì
+56		adolescent		thanh thiếu niên
+57		adopt		áp dụng
+58		adoption		sự áp dụng
+59		adult		người lớn
+60		advance		tiến bộ
+61		advanced		tiên tiến
+62		advantage		ưu điểm
+63		adventure		cuộc phiêu lưu
+64		advertising		quảng cáo
+65		advice		lời khuyên
+66		advise		khuyên
+67		affair		việc
+68		afford		đủ khả năng
+69		afraid		sợ
+70		african		người châu phi
+71		after		sau
+72		afternoon		buổi chiều
+73		again		lại
+74		against		phản đối
+75		age		tuổi
+76		agency		cơ quan
+77		agent		đại lý
+78		aggression		sự xâm lược
+79		aggressive		xâm lược
+80		ago		trước đây
+81		agree		đồng ý
+82		agreement		sự đồng ý
+83		ahead		phía trước
+84		aid		sự giúp đỡ
+85		aids		kiết hợp hiv
+86		aim		mục tiêu
+87		air		không khí
+88		aircraft		máy bay
+89		airline		hãng hàng không
+90		airport		sân bay
+91		alarm		báo động
+92		album		album
+93		alcohol		ruợu
+94		alive		sống
+95		all		tất cả
+96		alliance		liên minh
+97		allocate		phân bổ
+98		allow		cho phép
+99		allowance		trợ cấp
+100		almost		gần như
+101		alone		một mình
+102		along		theo
+103		already		đã
+104		also		cũng
+105		alter		thay đổi
+106		alternative		lựa chọn
+107		although		mặc dù
+108		always		luôn luôn
+109		amateur		nghiệp dư
+110		amazing		đáng kinh ngạc
+111		ambassador		đại sứ
+112		ambition		nguyện vọng
+113		ambitious		đầy tham vọng
+114		amenity		tiện ích
+115		among		giữa
+116		amount		số lượng
+117		analysis		phân tích
+118		analyst		nhà phân tích
+119		ancient		cổ xưa
+120		and		và
+121		anger		sự tức giận
+122		angle		góc
+123		angry		tức giận
+124		animal		động vật
+125		anniversary		kỷ niệm
+126		announce		tuyên bố
+127		annual		hàng năm
+128		another		một cái khác
+129		answer		trả lời
+130		ant		khẩu
+131		anticipate		dự đoán
+132		anxiety		nỗi lo âu
+133		anxious		buồn phiền
+134		any		bất kỳ
+135		anybody		bất kỳ ai
+136		anymore		không nữa
+137		anyone		bất kỳ ai
+138		anything		bất kỳ thứ gì
+139		anyway		dù sao đi nữa
+140		anywhere		bất cứ nơi nào
+141		apart		không kết nối
+142		apartment		căn hộ
+143		apologize		xin lỗi
+144		apology		lời xin lỗi
+145		apparent		rõ ràng
+146		apparently		hoàn toàn có vẻ
+147		appeal		kêu gọi
+148		appear		xuất hiện
+149		appearance		sự xuất hiện
+150		apple		quả táo
+151		applicant		người xin việc
+152		application		ứng dụng
+153		apply		áp dụng
+154		appoint		bổ nhiệm
+155		appointment		cuộc hẹn
+156		appreciate		đánh giá cao
+157		appreciation		sự đánh giá cao
+158		approach		tiếp cận
+159		approve		chấp thuận
+160		approximately		khoảng
+161		april		tháng tư
+162		arab		người ả rập
+163		arbitrary		tùy ý
+164		architecture		kiến trúc
+165		area		khu vực
+166		argue		tranh luận
+167		argument		điều luận
+168		arise		xuất phát
+169		arm		cánh tay
+170		army		quân đội
+171		around		xung quanh
+172		arrange		sắp xếp
+173		arrangement		sự sắp xếp
+174		arrest		bắt giữ
+175		arrival		sự đến
+176		arrive		đến
+177		art		nghệ thuật
+178		article		bài báo
+179		artificial		nhân tạo
+180		artist		nghệ sĩ
+181		as		như
+182		ash		hàn
+183		asian		người á châu
+184		aside		bên cạnh
+185		ask		hỏi
+186		asleep		ngủ
+187		aspect		góc độ
+188		assault		tấn công
+189		assert		đòi hỏi
+190		assessment		đánh giá
+191		asset		tài sản
+192		assign		giao
+193		assignment		nhiệm vụ
+194		assist		hỗ trợ
+195		assistance		sự giúp đỡ
+196		assistant		trợ lý
+197		associate		liên kết
+198		association		hội
+199		assume		giả định
+200		assumption		giả định
+201		assure		đảm bảo
+202		at		tại
+203		athlete		vận động viên
+204		athletic		thể thao
+205		atmosphere		bầu không khí
+206		attach		gắn kết
+207		attachment		đính kèm
+208		attack		tấn công
+209		attempt		cố gắng
+210		attend		tham dự
+211		attendance		sự tham dự
+212		attention		sự chú ý
+213		attitude		thái độ
+214		attorney		luật sư
+215		attract		lôi kéo
+216		attraction		nơi thu hút
+217		attractive		hấp dẫn
+218		attribute		đặc tính
+219		audience		đám đông
+220		august		tháng tám
+221		aunt		cô
+222		author		tác giả
+223		authority		quyền lực
+224		auto		tự động
+225		available		sẵn có
+226		average		trung bình
+227		avoid		tránh
+228		award		phần thưởng
+229		aware		hiểu biết
+230		awareness		sự nhận thức
+231		away		đi xa
+232		awful		kinh khủng
+233		baby		em bé
+234		back		phía sau
+235		background		phông nền
+236		backward		ngược lại
+237		bacteria		vi khuẩn
+238		bad		xấu
+239		badly		một cách tồi tệ
+240		bag		túi
+241		balance		cân bằng
+242		ball		bóng
+243		ban		cấm
+244		band		băng nhóm
+245		bank		nhà băng
+246		bar		quán bar
+247		base		cơ sở
+248		baseball		bóng chày
+249		basic		cơ bản
+250		basically		cơ bản
+251		basis		cơ sở
+252		basket		rổ
+253		basketball		bóng rổ
+254		bathroom		phòng tắm
+255		battery		pin
+256		battle		trận đánh
+257		bay		vịnh
+258		be		là
+259		beach		bãi biển
+260		bean		hạt đậu
+261		bear		gấu
+262		beat		đánh bại
+263		beautiful		đẹp
+264		beauty		vẻ đẹp
+265		because		bởi vì
+266		become		trở thành
+267		bed		giường
+268		bedroom		phòng ngủ
+269		beef		thịt bò
+270		before		trước
+271		begin		bắt đầu
+272		beginning		bắt đầu
+273		behave		hành xử
+274		behavior		hành vi
+275		behind		ở phía sau
+276		being		đang tồn tại
+277		belief		tin tưởng
+278		believe		tin
+279		bell		chuông
+280		belong		thuộc về
+281		below		dưới
+282		belt		dây đai
+283		bench		ghế đá
+284		bend		uốn cong
+285		beneath		dưới
+286		benefit		lợi ích
+287		beside		bên cạnh
+288		besides		ngoài ra
+289		best		tốt nhất
+290		bet		cược
+291		better		tốt hơn
+292		between		giữa
+293		beyond		vượt ra ngoài
+294		bible		kinh thánh
+295		big		lớn
+296		bike		xe đạp
+297		bill		hóa đơn
+298		billion		tỷ
+299		bind		buộc
+300		biological		sinh học
+301		bird		chim
+302		birth		sinh
+303		birthday		sinh nhật
+304		bit		một chút
+305		bite		cắn
+306		black		đen
+307		blame		trách móc
+308		blank		trống
+309		blanket		chiếu
+310		blind		mù
+311		block		khối
+312		blood		máu
+313		blow		thổi
+314		blue		màu xanh da trời
+315		board		hội đồng
+316		boat		thuyền
+317		body		cơ thể
+318		bomb		quả bom
+319		bombing		sự đánh bom
+320		bond		kết nối
+321		bone		xương
+322		book		sách
+323		boom		tăng trưởng nhanh chóng
+324		boot		ủng
+325		border		biên giới
+326		born		sinh ra
+327		borrow		mượn
+328		boss		sếp
+329		both		cả hai
+330		bother		làm phiền
+331		bottle		chai
+332		bottom		đáy
+333		bound		liên quan
+334		boundary		ranh giới
+335		bow		cung
+336		bowl		tô
+337		box		hộp
+338		boy		trai
+339		boyfriend		bạn trai
+340		brain		não
+341		branch		chi nhánh
+342		brand		thương hiệu
+343		bread		bánh mì
+344		break		pause
+345		breakfast		bữa sáng
+346		breast		vú
+347		breath		hơi thở
+348		breathe		thở
+349		breathing		hít thở
+350		brick		gạch
+351		bridge		cây cầu
+352		brief		tóm tắt
+353		briefly		tóm tắt
+354		bright		sáng
+355		brilliant		lộng lẫy
+356		bring		mang
+357		british		người anh
+358		broad		rộng
+359		broadcast		phát sóng
+360		broken		hỏng
+361		brother		anh em trai
+362		brown		nâu
+363		brush		chổi
+364		buck		đô la
+365		budget		kinh phí
+366		build		xây dựng
+367		building		toà nhà
+368		bullet		đạn
+369		bunch		nhóm
+370		burden		gánh nặng
+371		burn		đốt cháy
+372		bury		chôn
+373		bus		xe buýt
+374		business		doanh nghiệp
+375		busy		bận rộn
+376		but		nhưng
+377		butter		bơ
+378		button		nút
+379		buy		mua
+380		buyer		khách hàng
+381		by		bởi
+382		cabinet		tủ
+383		cable		dây cáp
+384		cake		bánh
+385		calculate		tính toán
+386		calculation		sự tính toán
+387		call		gọi
+388		camera		máy ảnh
+389		camp		trại
+390		campaign		chiến dịch
+391		campus		khuôn viên
+392		can		có thể
+393		canadian		người canada
+394		cancer		ung thư
+395		candidate		ứng viên
+396		candle		nến
+397		cannot		không thể
+398		canvas		vải
+399		cap		mũ lưỡi trai
+400		capability		khả năng
+401		capacity		sức chứa
+402		capital		thủ đô
+403		captain		đội trưởng
+404		capture		bắt
+405		car		xe hơi
+406		card		thẻ
+407		care		quan tâm
+408		career		nghề nghiệp
+409		careful		cẩn thận
+410		carefully		cẩn thận
+411		carry		mang
+412		case		trường hợp
+413		cash		tiền mặt
+414		cast		đúc
+415		cat		mèo
+416		catch		bắt
+417		category		hạng mục
+418		catholic		công giáo
+419		cause		nguyên nhân
+420		ceiling		trần nhà
+421		celebrate		kỷ niệm
+422		celebration		lễ kỷ niệm
+423		cell		tế bào
+424		cemetery		nghĩa trang
+425		center		trung tâm
+426		central		trung tâm
+427		century		thế kỷ
+428		ceo		tổng giám đốc điều hành
+429		ceremony		nghi lễ
+430		certain		chắc chắn
+431		certainly		chắc chắn
+432		certificate		chứng chỉ
+433		chain		xích
+434		chair		ghế
+435		chairman		chủ tịch
+436		challenge		thách thức
+437		chamber		phòng
+438		chance		cơ hội
+439		change		thay đổi
+440		changing		thay đổi
+441		channel		kênh
+442		chapter		chương
+443		character		ký tự
+444		characteristic		đặc điểm
+445		characterize		đặc trưng
+446		charge		tính phí
+447		charity		từ thiện
+448		chart		bảng biểu
+449		chase		truy đuổi
+450		cheap		rẻ
+451		check		kiểm tra
+452		cheek		má
+453		cheese		pho mát
+454		chef		đầu bếp
+455		chemical		hóa học
+456		chest		ngực
+457		chicken		gà
+458		chief		chủ
+459		child		trẻ em
+460		childhood		thời thơ ấu
+461		chinese		người trung quốc
+462		chip		vi chip
+463		chocolate		sô cô la
+464		choice		lựa chọn
+465		choose		chọn
+466		christian		người kitô giáo
+467		christmas		giáng sinh
+468		church		ngôi nhà thờ
+469		cigarette		tràng
+470		circle		vòng tròn
+471		circumstance		tình huống
+472		citizen		công dân
+473		city		thành phố
+474		civil		dân sự
+475		claim		đòi hỏi
+476		class		lớp học
+477		classic		kiểu cách
+478		classroom		phòng học
+479		clean		sạch sẽ
+480		clear		rõ ràng
+481		clearly		rõ ràng
+482		client		khách hàng
+483		climate		khí hậu
+484		climb		leo lên
+485		clinic		phòng khám
+486		clinical		điều trị lâm sàng
+487		clock		đồng hồ
+488		close		gần
+489		closed		kín
+490		closet		tủ quần áo
+491		cloth		vải
+492		clothes		quần áo
+493		clothing		quần áo
+494		cloud		mây
+495		club		câu lạc bộ
+496		clue		gợi ý
+497		cluster		cụm
+498		coach		huấn luyện viên
+499		coal		than đá
+500		coast		bờ biển
+501		coat		áo choàng
+502		code		mã
+503		coffee		cà phê
+504		cognitive		cơ động
+505		coin		đồng xu
+506		cold		lạnh
+507		collaboration		hợp tác
+508		collapse		sụp đổ
+509		colleague		đồng nghiệp
+510		collect		ghi
+511		collection		bộ sưu tập
+512		collector		người thu gom
+513		college		trường đại học
+514		colonial		thuộc thuộc địa
+515		color		màu
+516		column		cột
+517		combination		kết hợp
+518		combine		kết hợp
+519		come		đến
+520		comedy		hài kịch
+521		comfort		thoải mái
+522		comfortable		thoải mái
+523		command		ra lệnh
+524		commander		người chỉ huy
+525		comment		bình luận
+526		commercial		thương mại
+527		commission		ủy ban
+528		commit		ủng hộ
+529		commitment		ấn tượng
+530		committee		ủy ban
+531		common		chung
+532		commonly		thường
+533		communicate		giao tiếp
+534		communication		giao tiếp
+535		community		cộng đồng
+536		company		công ty
+537		comparable		tương tự
+538		compare		so sánh
+539		comparison		so sánh
+540		compel		ep buộc
+541		compensation		bồi thường
+542		compete		cạnh tranh
+543		competition		cạnh tranh
+544		competitive		cạnh tranh
+545		competitor		đối thủ
+546		complain		phàn nàn
+547		complaint		kháng nghị
+548		complete		hoàn thành
+549		completely		hoàn toàn
+550		complex		phức tạp
+551		complexity		phức tạp
+552		complicate		làm phức tạp
+553		complicated		phức tạp
+554		component		thành phần
+555		compose		sáng tác
+556		composition		bài luận
+557		comprehensive		toàn diện
+558		comprise		bao gồm
+559		compromise		thỏa hiệp
+560		computer		máy tính
+561		concentrate		tập trung
+562		concentration		sự tập trung
+563		concept		khái niệm
+564		concern		quan tâm
+565		concerned		quan tâm
+566		concert		hội nhạc
+567		conclusion		kết luận
+568		concrete		bê tông
+569		condition		điều kiện
+570		conduct		hành vi
+571		conference		hội nghị
+572		confidence		tự tin
+573		confident		tự tin
+574		confirm		xác nhận
+575		conflict		xung đột
+576		confront		đối đầu
+577		confuse		giống
+578		confusion		sự lúng túng
+579		congress		quốc hội
+580		connect		kết nối
+581		connection		kết nối
+582		conscious		tiềm thức
+583		consequence		hậu quả
+584		conservative		bảo thủ
+585		consider		xem xét
+586		considerable		khá
+587		consideration		sự xem xét
+588		consist		gồm có
+589		constant		liên tục
+590		constantly		liên tục
+591		constitute		cấu tạo
+592		constitution		hiến pháp
+593		construction		xây dựng
+594		consult		tham khảo
+595		consultant		cố vấn
+596		consultation		sự tham khảo
+597		consumer		khách hàng
+598		consumption		tiêu thụ
+599		contact		tiếp xúc
+600		contain		chứa
+601		container		thùng chứa
+602		contemporary		đương đại
+603		content		nội dung
+604		contest		tranh giành
+605		context		bối cảnh
+606		continue		tiếp tục
+607		continued		tiếp tục
+608		contract		hợp đồng
+609		contrast		sự tương phản
+610		contribute		góp phần
+611		contribution		đóng góp
+612		control		kiểm soát
+613		controversial		gây tranh cãi
+614		controversy		tranh cãi
+615		convenience		tiện lợi
+616		convenient		thuận tiện
+617		convention		hiệp định
+618		conventional		truyền thống
+619		conversation		cuộc trò chuyện
+620		convert		chuyển đổi
+621		conviction		tin ngưỡng
+622		convince		thuyết phục
+623		cook		nấu ăn
+624		cookie		bánh quy
+625		cooking		nấu nướng
+626		cool		mát mẻ
+627		cooperation		hợp tác
+628		cooperative		hợp tác
+629		coordinate		phối hợp
+630		coordination		sự phối hợp
+631		cop		cảnh sát
+632		cope		chịu đựng
+633		copy		sao chép
+634		core		cốt lõi
+635		corn		lúa mạch
+636		corner		góc
+637		corporate		doanh nghiệp
+638		corporation		tập đoàn
+639		correct		correct
+640		correctly		correctly
+641		correlation		tương quan
+642		correspond		phù hợp
+643		correspondent		phóng viên
+644		corruption		tham nhũng
+645		cost		giá cả
+646		cottage		nhà tranh
+647		cotton		bông
+648		couch		sofa
+649		could		có thể
+650		council		hội đồng
+651		counsel		loại bỏ
+652		counseling		tư vấn
+653		counselor		cố vấn
+654		count		đếm
+655		counter		quầy thu ngân
+656		country		đất nước
+657		county		hạt
+658		couple		cặp
+659		courage		dũng khí
+660		course		khóa học
+661		court		tòa án
+662		cousin		anh em họ
+663		cover		phủ
+664		coverage		phạm vi
+665		cow		bò
+666		crack		nứt
+667		craft		nghề thủ công
+668		crash		tai nạn
+669		crazy		điên
+670		cream		kem
+671		create		tạo
+672		creation		tạo ra
+673		creative		sáng tạo
+674		creativity		sáng tạo
+675		creature		sinh vật
+676		credit		tín dụng
+677		crew		phi hành đoàn
+678		crime		tội ác
+679		criminal		phạm tội
+680		crisis		khủng hoảng
+681		criteria		tiêu chí
+682		critic		nhà phê bình
+683		critical		chính trị
+684		criticism		sự phê bình
+685		critique		bình luận
+686		crop		vụ mùa
+687		cross		băng qua
+688		crowd		đám đông
+689		crown		vương miện
+690		crucial		rất quan trọng
+691		cry		kêu lên
+692		cultural		văn hóa
+693		culture		văn hóa
+694		cup		cốc
+695		cure		chữa
+696		curiosity		tò mò
+697		curious		tò mò
+698		currency		tiền tệ
+699		current		hiện tại
+700		currently		hiện nay
+701		curriculum		chương trình giảng dạy
+702		curve		đường cong
+703		custom		thói quen
+704		customer		khách hàng
+705		cut		cắt
+706		cycle		vòng lặp
+707		dad		bố
+708		daily		hằng ngày
+709		damage		tổn thương
+710		dance		vũ
+711		danger		nguy hiểm
+712		dangerous		nguy hiểm
+713		dark		tối
+714		darkness		bóng tối
+715		data		dữ liệu
+716		database		cơ sở dữ liệu
+717		date		ngày
+718		daughter		con gái
+719		day		ngày
+720		dead		chết
+721		deadline		hạn chót
+722		deal		điều khoản
+723		dealer		người bán hàng
+724		dear		quý
+725		death		sự chết
+726		debate		tranh luận
+727		debt		nợ
+728		decade		thập kỷ
+729		decide		quyết định
+730		decision		sự quyết định
+731		declare		tuyên bố
+732		decline		suống giảm
+733		decorate		trang trí
+734		decoration		trang trí
+735		decrease		giảm
+736		deep		sâu
+737		deeply		một cách sâu sắc
+738		deer		hươu
+739		defeat		thất bại
+740		defend		bảo vệ
+741		defendant		bị cáo
+742		defense		bảo vệ
+743		defensive		phòng thủ
+744		deficit		phát hành
+745		define		xác định
+746		definition		định nghĩa
+747		degree		bằng cấp
+748		delay		trì hoãn
+749		deliver		giao hàng
+750		delivery		giao hàng
+751		demand		yêu cầu
+752		democracy		dân chủ
+753		democratic		dân chủ
+754		demonstrate		đưa ra
+755		demonstration		demonstration
+756		deny		từ chối
+757		department		bộ phận
+758		depend		phụ thuộc
+759		dependent		phụ thuộc
+760		depending		tùy thuộc
+761		depict		miêu tả
+762		depression		ảm đạm
+763		depth		sâu
+764		deputy		phó
+765		derive		phát xuất
+766		describe		mô tả
+767		description		sự mô tả
+768		desert		sa mạc
+769		deserve		xứng đáng
+770		design		thiết kế
+771		designer		người thiết kế
+772		desire		khao khát
+773		desk		bàn làm việc
+774		desperate		tuyệt vọng
+775		despite		mặc dù
+776		destroy		phá hủy
+777		destruction		sự phá hủy
+778		detail		chi tiết
+779		detailed		chi tiết
+780		determine		xác định
+781		develop		phát triển
+782		development		phát triển
+783		device		thiết bị
+784		devote		hiến
+785		dial		gọi
+786		dialogue		đối thoại
+787		die		chết
+788		diet		chế độ ăn
+789		differ		khác nhau
+790		difference		sự khác biệt
+791		different		khác biệt
+792		differently		một cách khác biệt
+793		difficult		khó khăn
+794		difficulty		khó khăn
+795		dig		khám phá
+796		digital		kỹ thuật số
+797		dimension		kích thước
+798		dining		ăn uống
+799		dinner		bữa tối
+800		direct		trực tiếp
+801		direction		hướng
+802		directly		trực tiếp
+803		director		giám đốc
+804		dirt		bụi bẩn
+805		dirty		bẩn
+806		disability		tàn tật
+807		disappear		mất
+808		disappoint		thất vọng
+809		disappointment		thất vọng
+810		disaster		thảm họa
+811		discipline		kỷ luật
+812		disclose		tiết lộ
+813		discount		chiết khấu
+814		discover		khám phá
+815		discovery		khám phá
+816		discuss		bàn luận
+817		discussion		thảo luận
+818		disease		bệnh
+819		disk		đĩa
+820		dismiss		bãi bỏ
+821		disorder		loạn thất
+822		display		hiển thị
+823		dispute		tranh chấp
+824		distance		khoảng cách
+825		distant		xa xôi
+826		distinct		rõ ràng
+827		distinction		sự phân biệt
+828		distinguish		phân biệt
+829		distribute		phân phối
+830		distribution		phân phối
+831		district		khu vực
+832		disturb		làm phiền
+833		diverse		đa dạng
+834		diversity		sự đa dạng
+835		divide		chia
+836		division		phân cấp
+837		divorce		ly dị
+838		dna		dna
+839		do		làm
+840		doctor		bác sĩ
+841		document		tài liệu
+842		dog		chó
+843		domestic		nội địa
+844		dominant		kiểm soát
+845		dominate		chiếm ưu thế
+846		door		cửa
+847		double		gấp đôi
+848		doubt		nghi ngờ
+849		down		xuống
+850		downtown		trung tâm thành phố
+851		dozen		mười hai
+852		draft		bản nháp
+853		drag		kéo
+854		drama		kịch
+855		dramatic		mạnh mẽ
+856		draw		vẽ
+857		drawer		kệ ngăn kéo
+858		drawing		bản vẽ
+859		dream		mơ ước
+860		dress		ăn mặc
+861		drink		uống
+862		drive		điều khiển
+863		driver		tài xế
+864		drop		giảm
+865		drug		thuốc
+866		dry		khô
+867		dual		đôi
+868		due		đến hạn
+869		dull		chán chường
+870		during		trong suốt
+871		dust		bụi
+872		duty		nhiệm vụ
+873		each		mỗi
+874		eager		hăm hở
+875		ear		tai
+876		early		sớm
+877		earn		kiếm được
+878		earnings		lợi nhuận
+879		earth		trái đất
+880		ease		dễ dàng
+881		easily		dễ dàng
+882		east		phía đông
+883		eastern		đông
+884		easy		dễ dàng
+885		eat		ăn
+886		economic		kinh tế
+887		economics		kinh tế học
+888		economist		người kinh tế học
+889		economy		nền kinh tế
+890		edge		lề
+891		edition		bản
+892		everybody		mọi người
+893		everyday		hàng ngày
+894		everyone		mọi người
+895		everything		mọi thứ
+896		everywhere		mọi nơi
+897		evidence		bằng chứng
+898		evolution		tiến hóa
+899		evolve		tiến hóa
+900		exact		chính xác
+901		exactly		đúng
+902		exam		kỳ thi
+903		examination		kiểm tra
+904		examine		kiểm tra
+905		example		ví dụ
+906		excellent		xuất sắc
+907		except		trừ
+908		exception		ngoại lệ
+909		exchange		trao đổi
+910		exciting		thú vị
+911		exclude		loại trừ
+912		exclusive		duy nhất
+913		excuse		lý do
+914		executive		cố vấn
+915		exercise		bài tập
+916		exhibit		trưng bày
+917		exhibition		trưng bày
+918		exist		tồn tại
+919		existence		sự tồn tại
+920		exit		lối thoát
+921		expand		mở rộng
+922		expansion		mở rộng
+923		expect		mong đợi
+924		expectation		sự mong đợi
+925		expense		chi phí
+926		expensive		đắt tiền
+927		experience		kinh nghiệm
+928		experienced		đã có kinh nghiệm
+929		experiment		thí nghiệm
+930		expert		chuyên gia
+931		explain		giải thích
+932		explanation		sự giải thích
+933		explode		nổ
+934		exploit		khai thác
+935		exploration		khám phá
+936		explore		khám phá
+937		export		xuất khẩu
+938		expose		tiết lộ
+939		exposure		sự tiếp xúc
+940		express		bày tỏ
+941		expression		biểu lộ
+942		extend		mở rộng
+943		extension		sự mở rộng
+944		extensive		rộng lớn
+945		extent		quy mô
+946		external		bên ngoài
+947		extra		phụ
+948		extraordinary		phi thường
+949		extreme		cực kỳ
+950		extremely		rất
+951		eye		mắt
+952		face		khuôn mặt
+953		facility		cơ sở vật chất
+954		fact		sự thật
+955		factor		yếu tố
+956		factory		nhà máy
+957		faculty		khoa
+958		fail		thất bại
+959		failure		sự thất bại
+960		fair		công bằng
+961		fairly		hợp lý
+962		faith		tin
+963		fall		rơi
+964		false		sai
+965		fame		danh tiếng
+966		familiar		quen thuộc
+967		family		gia đình
+968		famous		nổi tiếng
+969		fan		fan
+970		fantastic		tuyệt vời
+971		far		xa
+972		farm		nông trại
+973		farmer		nông dân
+974		fashion		thời trang
+975		fast		nhanh
+976		fat		béo
+977		fate		vận mệnh
+978		father		cha
+979		fault		lỗi
+980		favorite		yêu thích
+981		fear		nỗi sợ hãi
+982		feature		đặc điểm
+983		federal		liên bang
+984		fee		phí
+985		feed		cho ăn
+986		feel		cảm thấy
+987		feeling		cảm giác
+988		fellow		bạn đồng nghiệp
+989		female		nữ giới
+990		fence		hàng rào
+991		few		vài
+992		fewer		ít hơn
+993		fiber		sợi
+994		fiction		hư cấu
+995		field		lĩnh vực
+996		fifteen		mười lăm
+997		fifth		thứ năm
+998		fifty		năm mươi
+999		fight		tranh đấu
+1000		fighter		nhà vô địch
+1001		figure		hình dáng
+1002		file		tệp
+1003		fill		lấp đầy
+1004		film		phim
+1005		final		cuối cùng
+1006		finally		cuối cùng
+1007		finance		tài chính
+1008		financial		tài chính
+1009		find		tìm thấy
+1010		finding		kết quả
+1011		fine		tốt
+1012		finger		ngón tay
+1013		finish		kết thúc
+1014		fire		lửa
+1015		firm		công ty
+1016		first		đầu tiên
+1017		fish		cá
+1018		fishing		câu cá
+1019		fit		phù hợp
+1020		fitness		thể lực
+1021		five		năm
+1022		fix		sửa chữa
+1023		fixed		đã được sửa chữa
+1024		flag		cờ
+1025		flame		ngọn lửa
+1026		flat		bằng phẳng
+1027		flavor		vị
+1028		flee		bỏ trốn
+1029		flesh		thịt
+1030		flight		chuyến bay
+1031		float		nổi
+1032		floor		sàn
+1033		flow		lưu chuyển
+1034		flower		hoa
+1035		fly		bay
+1036		focus		tập trung
+1037		fold		gấp
+1038		folk		dân gian
+1039		follow		theo dõi
+1040		following		tiếp theo
+1041		food		thức ăn
+1042		foot		chân
+1043		football		bóng đá
+1044		for		cho
+1045		force		lực lượng
+1046		foreign		nước ngoài
+1047		forest		rừng
+1048		forever		mãi mãi
+1049		forget		quên
+1050		forgive		tha thứ
+1051		form		hình thức
+1052		formal		chính thức
+1053		former		trước đây
+1054		formula		công thức
+1055		fortune		vận may
+1056		forward		về phía trước
+1057		foundation		nền tảng
+1058		frame		khung
+1059		framework		khung
+1060		free		miễn phí
+1061		freedom		sự tự do
+1062		freely		một cách tự do
+1063		freeze		đông lạnh
+1064		french		tiếng pháp
+1065		frequency		tần suất
+1066		frequent		thường xuyên
+1067		frequently		thường xuyên
+1068		fresh		tươi
+1069		friend		bạn bè
+1070		friendly		thân thiện
+1071		friendship		tình bạn
+1072		from		từ
+1073		front		phía trước
+1074		fruit		trái cây
+1075		frustration		sự thất vọng
+1076		fuel		nhiên liệu
+1077		full		đầy đủ
+1078		fully		hoàn toàn
+1079		fun		niềm vui
+1080		function		chức năng
+1081		fund		quỹ
+1082		fundamental		cơ bản
+1083		funding		khoản tài trợ
+1084		funny		vui nhộn
+1085		furniture		nội thất
+1086		further		thêm
+1087		future		tương lai
+1088		gain		đạt được
+1089		galaxy		ngân hà
+1090		gallery		phòng trưng bày
+1091		game		trò chơi
+1092		gap		khuyết
+1093		garage		gara
+1094		garden		vườn
+1095		garlic		tỏi
+1096		gas		gas
+1097		gate		cổng
+1098		gather		tập hợp
+1099		gay		gay
+1100		gaze		nhìn chằm chằm
+1101		gear		bánh răng
+1102		gender		giới tính
+1103		gene		gene
+1104		general		chung
+1105		generally		thường
+1106		generate		tạo ra
+1107		generation		thế hệ
+1108		generous		hào phóng
+1109		genetic		genet
+1110		gentle		hiền lành
+1111		gently		một cách nhẹ nhàng
+1112		german		tiếng đức
+1113		gesture		cử chỉ
+1114		get		lấy
+1115		ghost		ma
+1116		giant		khổng lồ
+1117		gift		món quà
+1118		girl		cô gái
+1119		girlfriend		bạn gái
+1120		give		cho
+1121		given		đã cho
+1122		glad		vui mừng
+1123		glass		kính
+1124		global		toàn cầu
+1125		glove		găng tay
+1126		go		đi
+1127		goal		mục tiêu
+1128		god		chúa
+1129		gold		vàng
+1130		golden		vàng
+1131		golf		gôn
+1132		good		tốt
+1133		govern		quản lý
+1134		government		chính phủ
+1135		governor		thống đốc
+1136		grab		nắm lấy
+1137		grade		đánh giá
+1138		gradually		dần dần
+1139		grain		hạt
+1140		grand		lớn
+1141		grandfather		ông
+1142		grandmother		bà
+1143		grant		trao
+1144		grass		cỏ
+1145		grateful		biết ơn
+1146		great		lớn
+1147		greatly		một cách lớn lao
+1148		greek		tiếng hy lạp
+1149		green		xanh lá cây
+1150		greet		chào hỏi
+1151		gregory		gregory
+1152		grey		xám
+1153		grid		lưới
+1154		grief		nỗi buồn
+1155		grin		cười
+1156		grip		lực cầm
+1157		grocery		cửa hàng tạp hóa
+1158		ground		mặt đất
+1159		group		nhóm
+1160		grow		tăng trưởng
+1161		growing		tăng trưởng
+1162		growth		sự phát triển
+1163		guarantee		bảo đảm
+1164		guard		bảo vệ
+1165		guess		dự đoán
+1166		guest		khách mời

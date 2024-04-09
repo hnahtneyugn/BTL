@@ -7,8 +7,6 @@ public class Main {
      * @throws IOException handle exceptions
      */
     public static void main(String[] args) throws IOException {
-        Dictionary dictionary = new Dictionary();
-        DictionaryManagement dictionaryManagement = new DictionaryManagement();
-        CommandLine.dictionaryBasic(dictionaryManagement, dictionary);
+        DictionaryManagement.dictionaryAdvanced();
     }
 }

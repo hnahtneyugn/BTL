@@ -1,30 +1,20 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.Random;
-import java.util.Scanner;
 
-public class Game3 {
-    private final Scanner scanner;
-    private final List<Map.Entry<String, String>> entryList;
-    private final List<String> questionList;
-    private final Random random;
-    private final char[][] matrix;
-
-    public Game3(Dictionary dictionary) {
-        scanner = new Scanner(System.in);
-        entryList = new ArrayList<>(dictionary.getWords().entrySet());
-        questionList = new ArrayList<>();
-        random = new Random();
-        matrix = new char[25][25];
+public class Game3 extends PlayGame{
+    protected static List<Map.Entry<String, String>> entryList = new ArrayList<>(dictionaryGame.entrySet());
+    protected static List<String> questionList = new ArrayList<>();
+    protected static char[][] matrix = new char[25][25];
+    
+    public static void initializeGame3(){
         for (int i = 0; i < 25; i++) {
             for (int j = 0; j < 25; j++) {
                 matrix[i][j] = ' ';
             }
         }
     }
-
-    private int rulesGame() {
+    public static void menuGame3() {
         System.out.println("Trò chơi của chúng tôi như sau:");
         System.out.println("- Công chúa bị một con quái vật bắt cóc và nhốt vào một lâu đài.");
         System.out.println("- Để cứu công chúa hoàng tử phải đến lâu đài và đánh bại con quái vật đó.");
@@ -34,16 +24,29 @@ public class Game3 {
         System.out.println("- Nhiệm vụ của bạn là tìm 4 mảnh bản đồ bị ẩn dấu. Mỗi mảnh bản đồ là 1 từ tiếng anh trong bảng kí tự.");
         System.out.println("- Bạn sẽ có 5 điểm sinh lực. Mỗi lần sai sẽ bị trừ 1 sinh lực. Khi cạn sinh lực bạn sẽ thua.");
         System.out.println("Trò chơi có 3 mức độ. Bạn muốn chọn mức độ nào:");
-        System.out.println("1. Dễ");
-        System.out.println("2. Trung Bình");
-        System.out.println("3. Khó");
-        int mode = scanner.nextInt();
-        scanner.nextLine();
-        return mode;
+        System.out.println("[1]. Dễ");
+        System.out.println("[2]. Trung Bình");
+        System.out.println("[3]. Khó");
+        System.out.println("Xin mời bạn chọn chế độ: ");
+    }
+    public static int gameMode3() {
+        while (true) {
+            try {
+                int gameMode = scanner.nextInt();
+                scanner.nextLine();
+                if (1 <= gameMode && gameMode <= 3) {
+                    return gameMode;
+                }
+                System.out.println("Hành động bạn chọn không được hỗ trợ!");
+            } catch (Exception e) {
+                System.out.println("Dữ liệu đầu vào không hợp lệ!");
+                scanner.nextLine();
+            }
+        }
     }
 
-    private void buildQuestion(int sizeWords) {
-        while (questionList.size() < 5) {
+    public static void buildQuestion(int sizeWords) {
+        while (questionList.size() < 4) {
             Map.Entry<String, String> temporaryEntry = entryList.get(random.nextInt(entryList.size()));
             String ques = temporaryEntry.getKey().toLowerCase();
             if(!questionList.contains(ques) && ques.length() >= sizeWords && ques.length() <= (sizeWords + 3)){
@@ -52,7 +55,7 @@ public class Game3 {
         }
     }
 
-    private boolean checkPlace(int row, int col, int direction, int length, int sizeMatrix) {
+    public static boolean checkPlace(int row, int col, int direction, int length, int sizeMatrix) {
         for (int i = 0; i < length; i++) {
             if (row < 0 || row >= sizeMatrix || col < 0 || col >= sizeMatrix || matrix[row][col] != ' ') {
                 return false;
@@ -91,7 +94,7 @@ public class Game3 {
         return true;
     }
 
-    private void placeWord(int row, int col, int direction, String word) {
+    public static void placeWord(int row, int col, int direction, String word) {
         for (int i = 0; i < word.length(); i++) {
             matrix[row][col] = Character.toUpperCase(word.charAt(i));
             switch (direction) {
@@ -127,7 +130,7 @@ public class Game3 {
         }
     }
 
-    private void findPlace(int sizeMatrix) {
+    public static void findPlace(int sizeMatrix) {
         for (String word : questionList) {
             boolean placed = true;
             while (placed) {
@@ -142,7 +145,7 @@ public class Game3 {
         }
     }
 
-    private void fillMatrix(int sizeMatrix) {
+    public static void fillMatrix(int sizeMatrix) {
         for (int i = 0; i < sizeMatrix; i++) {
             for (int j = 0; j < sizeMatrix; j++) {
                 if (matrix[i][j] == ' ') {
@@ -152,7 +155,7 @@ public class Game3 {
         }
     }
 
-    private void printMatrix(int sizeMatrix) {
+    public static void printMatrix(int sizeMatrix) {
         for (int i = 0; i < sizeMatrix; i++) {
             for (int j = 0; j < sizeMatrix; j++) {
                 System.out.print(matrix[i][j] + " ");
@@ -161,22 +164,25 @@ public class Game3 {
         }
     }
 
-    public void question() {
-        int mode = rulesGame();
-        buildQuestion(mode * 2 + 1);
-        findPlace(5 * (mode + 1));
-        fillMatrix(5 * (mode + 1));
-        printMatrix(5 * (mode + 1));
+    public static void runGame(int sizeWords, int sizeMatrix){
+        buildQuestion(sizeWords);
+        findPlace(sizeMatrix);
+        fillMatrix(sizeMatrix);
+        printMatrix(sizeMatrix);
         int heart = 5;
         List<String> correctList = new ArrayList<>();
-        while (heart > 0 && correctList.size() < 5) {
-            String answer = scanner.nextLine().toLowerCase();
-            if (questionList.contains(answer)) {
-                correctList.add(answer);
-                System.out.println("Đáp án của bạn chính xác");
-            } else {
-                heart--;
-                System.out.println("Đáp án của bạn chưa chính xác. Bạn còn " + heart + " cơ hội.");
+        while (heart > 0 && correctList.size() < 4) {
+            String answer = scanner.nextLine().toLowerCase().trim();
+            if(isAllLetters(answer)){
+                if (questionList.contains(answer)) {
+                    correctList.add(answer);
+                    System.out.println("Đáp án của bạn chính xác");
+                } else {
+                    heart--;
+                    System.out.println("Đáp án của bạn chưa chính xác. Bạn còn " + heart + " cơ hội.");
+                }
+            }else{
+                System.out.println("Dữ liệu đầu vào không hợp lệ!");
             }
         }
         if (heart == 0) {
@@ -187,6 +193,23 @@ public class Game3 {
             }
         } else {
             System.out.println("Chúc mừng bạn đã giải cứu thành công công chúa!");
+        }
+    }
+
+    public static void playGame3() {
+        menuGame3();
+        int gameMode = gameMode3();
+        initializeGame3();
+        switch (gameMode) {
+            case 1:
+                runGame(5, 10);
+                break;
+            case 2:
+                runGame(6, 15);
+                break;
+            case 3:
+                runGame(7, 20);
+                break;
         }
     }
 }
