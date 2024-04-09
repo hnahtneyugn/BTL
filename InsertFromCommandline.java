@@ -1,6 +1,11 @@
-public class InsertFromCommandline extends DictionaryManagement{
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class InsertFromCommandline extends DictionaryManagement {
+    public static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     /**
      * Receives input from user via command line.
+     * 
      * @param dictionary store all inserted words
      */
     public static void insertFromCommandline() {
@@ -14,8 +19,9 @@ public class InsertFromCommandline extends DictionaryManagement{
                     System.out.println("Nhập vào từ tiếng anh: ");
                     String wordTarget = scanner.nextLine().toLowerCase().trim();
                     System.out.println("Nhập vào nghĩa tiếng việt: ");
-                    String wordExplain = scanner.nextLine().toLowerCase().trim();
-                    addWord(wordTarget, wordExplain);
+                    // String wordExplain = scanner.nextLine().toLowerCase().trim();
+                    String wordExplain = br.readLine().toLowerCase().trim();
+                    addWord(wordTarget, wordExplain + "\n");
                 }
                 break;
             } catch (Exception e) {
@@ -23,7 +29,5 @@ public class InsertFromCommandline extends DictionaryManagement{
                 scanner.nextLine();
             }
         }
-
-
     }
 }

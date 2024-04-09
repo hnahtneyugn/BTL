@@ -1,7 +1,11 @@
 import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 import java.util.Random;
 
-public class PlayGame extends DictionaryManagement{
+public class PlayGame extends DictionaryManagement {
+    protected static List<Map.Entry<String, String>> entryList;
     protected static Random random = new Random();
 
     public final static void initializeGame() throws IOException {
@@ -15,6 +19,7 @@ public class PlayGame extends DictionaryManagement{
             addWordGame(englishWord, vietnameseWord);
         }
         br.close();
+        entryList = new ArrayList<>(dictionaryGame.entrySet());
     }
 
     public final static void menuGame() {
@@ -24,6 +29,7 @@ public class PlayGame extends DictionaryManagement{
         System.out.println("[3] Giải cứu công chúa");
         System.out.println("Xin mời bạn chọn game: ");
     }
+
     public final static int gameMode() {
         while (true) {
             try {
@@ -39,18 +45,18 @@ public class PlayGame extends DictionaryManagement{
             }
         }
     }
-    public final static void playGame() throws IOException{
+
+    public final static void playGame() throws IOException {
         initializeGame();
         menuGame();
         int gameMode = gameMode();
-        switch(gameMode) {
+        switch (gameMode) {
             case 1:
                 Game1.playGame1();
                 break;
             case 2:
-                // Game2 game2 = new Game2();
-                // game2.question();
-                // break;
+                Game2.playGame2();
+                break;
             case 3:
                 Game3.playGame3();
                 break;

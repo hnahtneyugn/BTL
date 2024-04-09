@@ -3,7 +3,7 @@ import java.util.TreeMap;
 public class Dictionary {
     protected static String wordTarget;
     protected static String wordExplain;
-    protected final static TreeMap<String, String> dictionary = new TreeMap<>();;
+    protected final static TreeMap<String, String> dictionary = new TreeMap<>();
     protected final static TreeMap<String, String> dictionaryGame = new TreeMap<>();
 
     /**

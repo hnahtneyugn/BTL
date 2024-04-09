@@ -3,17 +3,17 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-public class Game1 extends PlayGame {    
-    protected static List<Map.Entry<String, String>> entryList = new ArrayList<>(dictionaryGame.entrySet());
+public class Game1 extends PlayGame {
     protected static List<Map.Entry<String, String>> questionList = new ArrayList<>();
-    protected static char[] answers = {'A', 'B', 'C', 'D'};
-    
+    protected static char[] answers = { 'A', 'B', 'C', 'D' };
+
     public static void menuGame1() {
         System.out.println("Có 2 chế độ chơi: ");
         System.out.println("[1] Tìm nghĩa tiếng viêt");
         System.out.println("[2] Tìm từ tiếng anh");
         System.out.println("Xin mời bạn chọn chế độ: ");
     }
+
     public static int gameMode1() {
         while (true) {
             try {
@@ -29,7 +29,8 @@ public class Game1 extends PlayGame {
             }
         }
     }
-    public static int numberQuestions(){
+
+    public static int numberQuestions() {
         while (true) {
             try {
                 System.out.println("Chọn số câu hỏi bạn muốn trả lời: ");
@@ -42,6 +43,7 @@ public class Game1 extends PlayGame {
             }
         }
     }
+
     public static Map.Entry<String, String> getRandomQuestion() {
         while (true) {
             Map.Entry<String, String> temporaryEntry = entryList.get(random.nextInt(entryList.size()));
@@ -100,30 +102,35 @@ public class Game1 extends PlayGame {
                 System.out.println("Dữ liệu đầu vào không hợp lệ!");
             }
         }
-
     }
-    //chế độ 1
+
+    // chế độ 1
     public static void askQuestionEnglish(Map.Entry<String, String> randomEntry, int questionNumber) {
-        System.out.println("Câu hỏi " + questionNumber + ": Hãy cho biết nghĩa của từ tiếng anh sau: " + randomEntry.getKey());
+        System.out.println(
+                "Câu hỏi " + questionNumber + ": Hãy cho biết nghĩa của từ tiếng anh sau: " + randomEntry.getKey());
         List<String> options = generateOptionsVietnamese(randomEntry.getValue());
         displayOptions(options);
         checkAnswer(options, randomEntry.getValue());
     }
-    //chế độ 1
+
+    // chế độ 1
     public static void askQuestionsEnglish(int numQuestions) {
         for (int i = 1; i <= numQuestions; i++) {
             Map.Entry<String, String> randomEntry = getRandomQuestion();
             askQuestionEnglish(randomEntry, i);
         }
     }
-    //chế độ 2
+
+    // chế độ 2
     public static void askQuestionVietnamese(Map.Entry<String, String> randomEntry, int questionNumber) {
-        System.out.println("Câu hỏi " + questionNumber + ": Hãy cho biết từ tiếng anh nào có nghĩa là: " + randomEntry.getValue());
+        System.out.println(
+                "Câu hỏi " + questionNumber + ": Hãy cho biết từ tiếng anh nào có nghĩa là: " + randomEntry.getValue());
         List<String> options = generateOptionsEnglish(randomEntry.getKey());
         displayOptions(options);
         checkAnswer(options, randomEntry.getKey());
     }
-    //chế độ 2
+
+    // chế độ 2
     public static void askQuestionsVietnamese(int numQuestions) {
         for (int i = 1; i <= numQuestions; i++) {
             Map.Entry<String, String> randomEntry = getRandomQuestion();
@@ -135,7 +142,7 @@ public class Game1 extends PlayGame {
         menuGame1();
         int gameMode = gameMode1();
         int numQuestions = numberQuestions();
-        switch(gameMode) {
+        switch (gameMode) {
             case 1:
                 askQuestionsEnglish(numQuestions);
                 break;

@@ -1,8 +1,9 @@
 import java.io.*;
 
-public class DictionaryExportToFile extends DictionaryManagement{
-        /**
+public class DictionaryExportToFile extends DictionaryManagement {
+    /**
      * Export all data in the current dictionary to a new txt file.
+     * 
      * @param dictionary stores all words
      * @throws IOException handle exceptions
      */
@@ -10,12 +11,11 @@ public class DictionaryExportToFile extends DictionaryManagement{
         FileWriter fw = new FileWriter("user.txt");
         BufferedWriter bw = new BufferedWriter(fw);
         int countWords = 1;
-        bw.write("No\t|\tEnglish\t|\tVietnamese\n");
         for (String wordTarget : dictionary.keySet()) {
             bw.write(Integer.toString(countWords));
-            bw.write("\t\t");
+            bw.write(". ");
             bw.write(wordTarget);
-            bw.write("\t\t");
+            bw.write("\n");
             bw.write(dictionary.get(wordTarget));
             bw.write("\n");
             countWords++;

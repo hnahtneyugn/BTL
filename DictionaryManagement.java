@@ -1,9 +1,43 @@
 import java.io.*;
 import java.util.Scanner;
 
-public class DictionaryManagement extends Dictionary{
+public class DictionaryManagement extends Dictionary {
     protected static Scanner scanner = new Scanner(System.in);
-
+    
+    public final static void initializDictionary() throws IOException {
+        FileReader fr = new FileReader("dictionaries.txt");
+        BufferedReader br = new BufferedReader(fr);
+        String line;
+        String wordTarget = "";
+        StringBuilder wordExplainBuilder = new StringBuilder();
+        while ((line = br.readLine()) != null) {
+            if (line.startsWith("|")) {
+                if (!wordTarget.isEmpty() && wordExplainBuilder.length() > 0) {
+                    addWord(wordTarget, wordExplainBuilder.toString());
+                    wordExplainBuilder.setLength(0);
+                }
+                wordTarget = line.substring(1).trim();
+            } else {
+                wordExplainBuilder.append(line.trim()).append("\n");
+            }
+        }
+        if (!wordTarget.isEmpty() && wordExplainBuilder.length() > 0) {
+            addWord(wordTarget, wordExplainBuilder.toString());
+        }
+        br.close();
+    }
+    //đang lỗi
+    // public final static void saveDictionary() throws IOException{
+    //     FileWriter fw = new FileWriter("phat.txt");
+    //     BufferedWriter bw = new BufferedWriter(fw);
+    //     for (String wordTarget : dictionary.keySet()) {
+    //         bw.write("|");
+    //         bw.write(wordTarget);
+    //         bw.write("\n");
+    //         bw.write(dictionary.get(wordTarget));
+    //     }
+    //     bw.close();
+    // }
     public final static void printMenu() {
         System.out.println("Chào mừng đến với app học tập của chúng tôi!");
         System.out.println("[0] Thoát");
@@ -21,6 +55,7 @@ public class DictionaryManagement extends Dictionary{
 
     /**
      * Allow user to choose mode.
+     * 
      * @return mode to use
      */
     public final static int appMode() {
@@ -38,6 +73,7 @@ public class DictionaryManagement extends Dictionary{
             }
         }
     }
+
     public final static boolean isAllLetters(String string) {
         for (char x : string.toCharArray()) {
             if (!Character.isLetter(x)) {
@@ -47,59 +83,26 @@ public class DictionaryManagement extends Dictionary{
         return true;
     }
 
-    // /**
-    //  * Returns the meaning of a word.
-    //  * @param dictionary stores all words
-    //  */
-    // public void dictionaryLookup() {
-    //     boolean check = true;
-    //     while(check){
-    //         System.out.println("Bạn muốn tra từ bằng phương thức nào:");
-    //         System.out.println("1. Tra từ bằng từ điển của chúng tôi");
-    //         System.out.println("2. Tra từ bằng API translate");
-    //         int mode = scanner.nextInt();
-    //         scanner.nextLine();
-    //         switch (mode) {
-    //             case 1:
-    //                 System.out.println("Nhập từ cần tra nghĩa: ");
-    //                 String lookupWord = scanner.nextLine().toLowerCase().trim();
-    //                 if(dictionary.containsKey(lookupWord)){
-    //                     System.out.println("Từ này có nghĩa là: " + dictionary.get(lookupWord));
-    //                 }else{
-    //                     System.out.println("Từ này không tồn tại trong từ điển! Hãy thử lại! ");
-    //                 }
-    //                 check = false;
-    //                 break;
-    //             case 2:
-    //                 System.out.println("Nhập từ cần tra nghĩa: ");
-    //                 String text = scanner.nextLine().toLowerCase().trim();
-    //                 System.out.println("Từ này có nghĩa là: " + API.translate("en", "vi", text));
-    //                 check = false;
-    //                 break;
-    //             default:
-    //                 System.out.println("Không hợp lệ. Vui lòng chọn lại!");
-    //                 break;
-    //         }
-    //     }
-    // }
-
     /**
      * Allow user to choose which mode/function to call conveniently.
+     * 
      * @param dictionary stores all words
      * @throws IOException handle exceptions
      */
     public final static void dictionaryAdvanced() throws IOException {
-        // InsertFromFile.insertFromFile("game.txt");
+        initializDictionary();
         while (true) {
             printMenu();
             int mode = appMode();
             switch (mode) {
                 case 0:
                     System.out.println("Xin chào và hẹn gặp lại!");
+                    // saveDictionary();
                     System.exit(0);
                     break;
                 case 1:
-                    InsertFromCommandline.insertFromCommandline();;
+                    InsertFromCommandline.insertFromCommandline();
+                    ;
                     break;
                 case 2:
                     RemoveDictionary.removeDictionary();
@@ -111,8 +114,8 @@ public class DictionaryManagement extends Dictionary{
                     DisplayDictionary.displayDictionary();
                     break;
                 case 5:
-                    // dictionaryLookup();
-                    // break;
+                    DictionaryLookup.dictionaryLookup();
+                    break;
                 case 6:
                     DictionarySearcher.dictionarySearcher();
                     break;

@@ -2,18 +2,18 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class Game3 extends PlayGame{
-    protected static List<Map.Entry<String, String>> entryList = new ArrayList<>(dictionaryGame.entrySet());
+public class Game3 extends PlayGame {
     protected static List<String> questionList = new ArrayList<>();
     protected static char[][] matrix = new char[25][25];
-    
-    public static void initializeGame3(){
+
+    public static void initializeGame3() {
         for (int i = 0; i < 25; i++) {
             for (int j = 0; j < 25; j++) {
                 matrix[i][j] = ' ';
             }
         }
     }
+
     public static void menuGame3() {
         System.out.println("Trò chơi của chúng tôi như sau:");
         System.out.println("- Công chúa bị một con quái vật bắt cóc và nhốt vào một lâu đài.");
@@ -21,14 +21,17 @@ public class Game3 extends PlayGame{
         System.out.println("- Nhưng lâu đài nằm trong rừng và hoàng tử không biết đường đến đó.");
         System.out.println("- Bạn hãy giúp hoàng tử tìm bản đồ và chỉ dẫn hoàng tử đường đến lâu đài.");
         System.out.println("- Bản đồ bị chia làm 4 phần nằm ẩn dấu trong một bảng kí tự.");
-        System.out.println("- Nhiệm vụ của bạn là tìm 4 mảnh bản đồ bị ẩn dấu. Mỗi mảnh bản đồ là 1 từ tiếng anh trong bảng kí tự.");
-        System.out.println("- Bạn sẽ có 5 điểm sinh lực. Mỗi lần sai sẽ bị trừ 1 sinh lực. Khi cạn sinh lực bạn sẽ thua.");
+        System.out.println(
+                "- Nhiệm vụ của bạn là tìm 4 mảnh bản đồ bị ẩn dấu. Mỗi mảnh bản đồ là 1 từ tiếng anh trong bảng kí tự.");
+        System.out.println(
+                "- Bạn sẽ có 5 điểm sinh lực. Mỗi lần sai sẽ bị trừ 1 sinh lực. Khi cạn sinh lực bạn sẽ thua.");
         System.out.println("Trò chơi có 3 mức độ. Bạn muốn chọn mức độ nào:");
         System.out.println("[1]. Dễ");
         System.out.println("[2]. Trung Bình");
         System.out.println("[3]. Khó");
         System.out.println("Xin mời bạn chọn chế độ: ");
     }
+
     public static int gameMode3() {
         while (true) {
             try {
@@ -49,7 +52,7 @@ public class Game3 extends PlayGame{
         while (questionList.size() < 4) {
             Map.Entry<String, String> temporaryEntry = entryList.get(random.nextInt(entryList.size()));
             String ques = temporaryEntry.getKey().toLowerCase();
-            if(!questionList.contains(ques) && ques.length() >= sizeWords && ques.length() <= (sizeWords + 3)){
+            if (!questionList.contains(ques) && ques.length() >= sizeWords && ques.length() <= (sizeWords + 3)) {
                 questionList.add(ques);
             }
         }
@@ -164,7 +167,7 @@ public class Game3 extends PlayGame{
         }
     }
 
-    public static void runGame(int sizeWords, int sizeMatrix){
+    public static void runGame(int sizeWords, int sizeMatrix) {
         buildQuestion(sizeWords);
         findPlace(sizeMatrix);
         fillMatrix(sizeMatrix);
@@ -173,7 +176,7 @@ public class Game3 extends PlayGame{
         List<String> correctList = new ArrayList<>();
         while (heart > 0 && correctList.size() < 4) {
             String answer = scanner.nextLine().toLowerCase().trim();
-            if(isAllLetters(answer)){
+            if (isAllLetters(answer)) {
                 if (questionList.contains(answer)) {
                     correctList.add(answer);
                     System.out.println("Đáp án của bạn chính xác");
@@ -181,7 +184,7 @@ public class Game3 extends PlayGame{
                     heart--;
                     System.out.println("Đáp án của bạn chưa chính xác. Bạn còn " + heart + " cơ hội.");
                 }
-            }else{
+            } else {
                 System.out.println("Dữ liệu đầu vào không hợp lệ!");
             }
         }
