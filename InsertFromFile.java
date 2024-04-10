@@ -1,13 +1,6 @@
 import java.io.*;
 
 public class InsertFromFile extends DictionaryManagement {
-    /**
-     * Receives dictionary data from a text file.
-     * 
-     * @param dictionary stores all words.
-     * @param filename   database
-     * @throws IOException handle exceptions
-     */
     public static void insertFromFile() throws IOException {
         System.out.println(
                 "File txt đầu vào phải có định dạng mỗi dòng chứa từ tiếng anh và giải thích tiếng việt (ngăn cách nhau bằng dấu tab).");

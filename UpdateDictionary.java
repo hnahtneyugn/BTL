@@ -8,7 +8,7 @@ public class UpdateDictionary extends DictionaryManagement {
                     System.out.println(updateWord + " nghĩa là " + dictionary.get(updateWord));
                     System.out.println("Bạn muốn thay đổi nghĩa của từ này thành: ");
                     String updateMeaning = scanner.nextLine().toLowerCase().trim();
-                    dictionary.put(updateWord, updateMeaning);
+                    addWord(updateWord, updateMeaning + "\n");
                     break;
                 } else {
                     System.out.println("Từ này không tồn tại trong từ điển! Bạn có muốn thêm nó vào từ điển không ?");
@@ -19,7 +19,7 @@ public class UpdateDictionary extends DictionaryManagement {
                     if (choice == '1') {
                         System.out.println("Nhập vào nghĩa tiếng việt: ");
                         String updateMeaning = scanner.nextLine().toLowerCase().trim();
-                        addWord(updateWord, updateMeaning);
+                        addWord(updateWord, updateMeaning + "/n");
                     }
                 }
                 break;

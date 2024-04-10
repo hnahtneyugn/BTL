@@ -26,18 +26,18 @@ public class DictionaryManagement extends Dictionary {
         }
         br.close();
     }
-    //đang lỗi
-    // public final static void saveDictionary() throws IOException{
-    //     FileWriter fw = new FileWriter("phat.txt");
-    //     BufferedWriter bw = new BufferedWriter(fw);
-    //     for (String wordTarget : dictionary.keySet()) {
-    //         bw.write("|");
-    //         bw.write(wordTarget);
-    //         bw.write("\n");
-    //         bw.write(dictionary.get(wordTarget));
-    //     }
-    //     bw.close();
-    // }
+
+    public final static void saveDictionary() throws IOException{
+        FileWriter fw = new FileWriter("dictionaries.txt");
+        BufferedWriter bw = new BufferedWriter(fw);
+        for (String wordTarget : dictionary.keySet()) {
+            bw.write("|");
+            bw.write(wordTarget);
+            bw.write("\n");
+            bw.write(dictionary.get(wordTarget));
+        }
+        bw.close();
+    }
     public final static void printMenu() {
         System.out.println("Chào mừng đến với app học tập của chúng tôi!");
         System.out.println("[0] Thoát");
@@ -53,11 +53,6 @@ public class DictionaryManagement extends Dictionary {
         System.out.println("Lựa chọn của bạn: ");
     }
 
-    /**
-     * Allow user to choose mode.
-     * 
-     * @return mode to use
-     */
     public final static int appMode() {
         while (true) {
             try {
@@ -83,12 +78,6 @@ public class DictionaryManagement extends Dictionary {
         return true;
     }
 
-    /**
-     * Allow user to choose which mode/function to call conveniently.
-     * 
-     * @param dictionary stores all words
-     * @throws IOException handle exceptions
-     */
     public final static void dictionaryAdvanced() throws IOException {
         initializDictionary();
         while (true) {
@@ -97,7 +86,7 @@ public class DictionaryManagement extends Dictionary {
             switch (mode) {
                 case 0:
                     System.out.println("Xin chào và hẹn gặp lại!");
-                    // saveDictionary();
+                    saveDictionary();
                     System.exit(0);
                     break;
                 case 1:

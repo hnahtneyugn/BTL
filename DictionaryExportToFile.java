@@ -1,12 +1,6 @@
 import java.io.*;
 
 public class DictionaryExportToFile extends DictionaryManagement {
-    /**
-     * Export all data in the current dictionary to a new txt file.
-     * 
-     * @param dictionary stores all words
-     * @throws IOException handle exceptions
-     */
     public static void dictionaryExportToFile() throws IOException {
         FileWriter fw = new FileWriter("user.txt");
         BufferedWriter bw = new BufferedWriter(fw);

@@ -26,9 +26,9 @@ public class Game3 extends PlayGame {
         System.out.println(
                 "- Bạn sẽ có 5 điểm sinh lực. Mỗi lần sai sẽ bị trừ 1 sinh lực. Khi cạn sinh lực bạn sẽ thua.");
         System.out.println("Trò chơi có 3 mức độ. Bạn muốn chọn mức độ nào:");
-        System.out.println("[1]. Dễ");
-        System.out.println("[2]. Trung Bình");
-        System.out.println("[3]. Khó");
+        System.out.println("[1]. Dễ (Từ cần tìm có 5 - 8 kí tự)");
+        System.out.println("[2]. Trung Bình (Từ cần tìm có 6 - 9 kí tự)");
+        System.out.println("[3]. Khó (Từ cần tìm có 7 - 10 kí tự)");
         System.out.println("Xin mời bạn chọn chế độ: ");
     }
 

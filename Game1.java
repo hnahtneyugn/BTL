@@ -104,7 +104,6 @@ public class Game1 extends PlayGame {
         }
     }
 
-    // chế độ 1
     public static void askQuestionEnglish(Map.Entry<String, String> randomEntry, int questionNumber) {
         System.out.println(
                 "Câu hỏi " + questionNumber + ": Hãy cho biết nghĩa của từ tiếng anh sau: " + randomEntry.getKey());
@@ -113,7 +112,6 @@ public class Game1 extends PlayGame {
         checkAnswer(options, randomEntry.getValue());
     }
 
-    // chế độ 1
     public static void askQuestionsEnglish(int numQuestions) {
         for (int i = 1; i <= numQuestions; i++) {
             Map.Entry<String, String> randomEntry = getRandomQuestion();
@@ -121,7 +119,6 @@ public class Game1 extends PlayGame {
         }
     }
 
-    // chế độ 2
     public static void askQuestionVietnamese(Map.Entry<String, String> randomEntry, int questionNumber) {
         System.out.println(
                 "Câu hỏi " + questionNumber + ": Hãy cho biết từ tiếng anh nào có nghĩa là: " + randomEntry.getValue());
@@ -130,7 +127,6 @@ public class Game1 extends PlayGame {
         checkAnswer(options, randomEntry.getKey());
     }
 
-    // chế độ 2
     public static void askQuestionsVietnamese(int numQuestions) {
         for (int i = 1; i <= numQuestions; i++) {
             Map.Entry<String, String> randomEntry = getRandomQuestion();
