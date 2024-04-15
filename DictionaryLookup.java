@@ -1,4 +1,4 @@
-public class DictionaryLookup extends DictionaryManagement {
+public class DictionaryLookup extends TrieOperation {
     public final static void menuLookup() {
         System.out.println("Bạn muốn sử dụng từ điển: ");
         System.out.println("[1] Từ điển Anh - Việt");
@@ -21,15 +21,34 @@ public class DictionaryLookup extends DictionaryManagement {
             }
         }
     }
+
     public static void lookupEV(){
-        System.out.println("Nhập từ cần tra nghĩa: ");
-        String lookupWord = scanner.nextLine().toLowerCase().trim();
-        if(dictionary.containsKey(lookupWord)){
-            System.out.println("Thông tin về từ mà bạn cần tìm kiếm:");
-            System.out.println(dictionary.get(lookupWord));
-        }else{
-            System.out.println("Thông tin về từ mà bạn cần tìm kiếm:");
-            System.out.println(API.translate("en", "vi", lookupWord));
+        TrieNode currentNode = root;
+        while (true) {
+            System.out.println("Nhập từ cần tìm kiếm: ");
+            String searchWord = scanner.nextLine().toLowerCase().trim();
+            if (isAllLetters(searchWord)) {
+                for (int i = 0; i < searchWord.length(); i++) {
+                    char x = searchWord.charAt(i);
+                    if (!currentNode.getTriemap().containsKey(x)) {
+                        System.out.println("Thông tin về từ mà bạn cần tìm kiếm:");
+                        System.out.println(API.translate("en", "vi", searchWord));
+                        return;
+                    }
+                    currentNode = currentNode.getTriemap().get(x);
+                }
+                if (currentNode.isWordEnd()) {
+                    System.out.println("Thông tin về từ mà bạn cần tìm kiếm:");
+                    System.out.println(currentNode.getMeaning());
+                } else {
+                    System.out.println("Thông tin về từ mà bạn cần tìm kiếm:");
+                    System.out.println(API.translate("en", "vi", searchWord));
+                }
+                break;
+            } else {
+                System.out.println("Dữ liệu đầu vào không hợp lệ!");
+                scanner.nextLine();
+            }
         }
     }
     public static void lookupVE(){

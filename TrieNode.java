@@ -1,9 +1,9 @@
 import java.util.HashMap;
 
 public class TrieNode {
-    boolean isWordEnd;
-    HashMap<Character, TrieNode> triemap;
-    String meaning;
+    protected boolean isWordEnd;
+    protected HashMap<Character, TrieNode> triemap;
+    protected String meaning;
 
     public TrieNode() {
         this.isWordEnd = false;

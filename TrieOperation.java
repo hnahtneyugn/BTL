@@ -1,48 +1,37 @@
+import java.io.IOException;
 import java.util.*;
 
-public class TrieOperation extends DictionaryManagement {
-    private static final TrieNode root = new TrieNode();
-    private static final TreeMap<String, String> TrieDictionary = new TreeMap<>(Comparator.naturalOrder());
-
+public class TrieOperation extends TrieNode {
+    protected static TrieNode root = new TrieNode();
+    protected static Scanner scanner = new Scanner(System.in);
     public static TrieNode getRoot() {
         return root;
     }
 
-    public TreeMap<String, String> getTrieDictionary() {
-        return TrieDictionary;
+    public static void printMenu() {
+        System.out.println("Chào mừng đến với app học tập của chúng tôi!");
+        System.out.println("[0] Thoát");
+        System.out.println("[1] Thêm từ");
+        System.out.println("[2] Xoá từ");
+        System.out.println("[3] Sửa từ");
+        System.out.println("[4] Hiện tất cả từ trong từ điển");
+        System.out.println("[5] Tra từ");
+        System.out.println("[6] Tìm kiếm");
+        System.out.println("[7] Game");
+        System.out.println("[8] Nhập vào từ file");
+        System.out.println("[9] Xuất ra file");
+        System.out.println("Lựa chọn của bạn: ");
     }
 
-    public static void insert(String word, String meaning) {
-        TrieNode currentNode = root;
-        for (int j = 0; j < word.length(); j++) {
-            char x = word.charAt(j);
-
-            if (!currentNode.getTriemap().containsKey(x)) {
-                currentNode.getTriemap().put(x, new TrieNode());
-            }
-
-            currentNode = currentNode.getTriemap().get(x);
-        }
-        currentNode.setWordEnd(true);
-        currentNode.setMeaning(meaning);
-    }
-
-    public static void insertFromCommandline() {
+    public static int appMode() {
         while (true) {
             try {
-                System.out.println("Nhập vào số lượng từ bạn muốn: ");
-                int count = scanner.nextInt();
+                int mode = scanner.nextInt();
                 scanner.nextLine();
-                for (int i = 1; i <= count; i++) {
-                    System.out.println("Từ thứ " + i + " mà bạn đã thêm vào");
-                    System.out.println("Nhập vào từ tiếng anh: ");
-                    String wordTarget = scanner.nextLine().toLowerCase().trim();
-                    System.out.println("Nhập vào nghĩa tiếng việt: ");
-                    String wordExplain = scanner.nextLine().toLowerCase().trim();
-
-                    insert(wordTarget, wordExplain);
+                if (0 <= mode && mode <= 9) {
+                    return mode;
                 }
-                break;
+                System.out.println("Hành động bạn chọn không được hỗ trợ!");
             } catch (Exception e) {
                 System.out.println("Dữ liệu đầu vào không hợp lệ!");
                 scanner.nextLine();
@@ -50,141 +39,69 @@ public class TrieOperation extends DictionaryManagement {
         }
     }
 
-    public static void search() {
+    public static void insertTrie(String word, String meaning) {
         TrieNode currentNode = root;
-        while (true) {
-            System.out.println("Nhập từ cần tìm kiếm: ");
-            String searchWord = scanner.nextLine().toLowerCase().trim();
-            if (isAllLetters(searchWord)) {
-                for (int i = 0; i < searchWord.length(); i++) {
-                    char x = searchWord.charAt(i);
-                    if (!currentNode.getTriemap().containsKey(x)) {
-                        System.out.println("Từ này không có trong từ điển");
-                        return;
-                    }
-                    currentNode = currentNode.getTriemap().get(x);
-                }
-
-                if (currentNode.isWordEnd()) {
-                    System.out.println("Nghĩa của từ này là: " + currentNode.getMeaning());
-                } else {
-                    System.out.println("Từ này không có ý nghĩa!");
-                }
-                break;
-            } else {
-                System.out.println("Dữ liệu đầu vào không hợp lệ!");
-                scanner.nextLine();
-            }
-        }
-    }
-
-    public static void remove(String word) {
-        TrieNode currentNode = root;
-        TrieNode lastNodeVisited = null;
-        char lastCharacterVisited = 'a';
-
-        for (int i = 0; i < word.length(); i++) {
-            char x = word.charAt(i);
+        for (int j = 0; j < word.length(); j++) {
+            char x = word.charAt(j);
             if (!currentNode.getTriemap().containsKey(x)) {
-                System.out.println("Từ này không tồn tại trong từ điển");
-                return;
-            } else {
-                int count = currentNode.getTriemap().size();
+                currentNode.getTriemap().put(x, new TrieNode());
+            }
+            currentNode = currentNode.getTriemap().get(x);
+        }
+        currentNode.setWordEnd(true);
+        currentNode.setMeaning(meaning);
+    }
 
-                if (count > 1) {
-                    lastNodeVisited = currentNode;
-                    lastCharacterVisited = x;
-                }
-                currentNode = currentNode.getTriemap().get(x);
+    public static boolean isAllLetters(String string) {
+        for (char x : string.toCharArray()) {
+            if (!Character.isLetter(x)) {
+                return false;
             }
         }
-
-        if (currentNode.getTriemap().isEmpty()) {
-            currentNode.setWordEnd(false);
-            return;
-        }
-
-        if (lastNodeVisited != null) {
-            lastNodeVisited.getTriemap().remove(lastCharacterVisited);
-            return;
-        }
-
-        root.getTriemap().remove(word.charAt(0));
+        return true;
     }
 
-    public static void fill(TrieNode currentNode, ArrayList<String> store, String prefix) {
-        if (currentNode == null) {
-            return;
-        }
-
-        if (currentNode.isWordEnd()) {
-            store.add(prefix);
-        }
-
-        List<Character> keys = new ArrayList<>(currentNode.getTriemap().keySet());
-        Collections.sort(keys);
-
-        for (char x : keys) {
-            fill(currentNode.getTriemap().get(x), store, prefix + x);
-        }
-    }
-
-    public static ArrayList<String> autocomplete(String lookupWord) {
-        ArrayList<String> store = new ArrayList<>();
-        TrieNode currentNode = root;
-        for (int i = 0; i < lookupWord.length(); i++) {
-            char x = lookupWord.charAt(i);
-            if (currentNode.getTriemap().containsKey(x)) {
-                currentNode = currentNode.getTriemap().get(x);
-            } else {
-                System.out.println("Không tìm thấy từ nào như này: " + lookupWord.substring(0, i));
-                return store;
-            }
-        }
-
-        System.out.println("Những từ bắt đầu bằng chữ này: " + lookupWord);
-        fill(currentNode, store, lookupWord);
-        return store;
-    }
-
-
-
-    public static void lookup() {
+    public static void dictionaryAdvanced() throws IOException {
+        InitializeTrie.createTrie();
         while (true) {
-            System.out.println("Nhập từ cần tìm kiếm: ");
-            String lookupWord = scanner.nextLine().toLowerCase().trim();
-            if (isAllLetters(lookupWord)) {
-                for (String word : autocomplete(lookupWord)) {
-                    System.out.println(word);
-                }
-                break;
-            } else {
-                System.out.println("Dữ liệu đầu vào không hợp lệ!");
-                scanner.nextLine();
+            printMenu();
+            int mode = appMode();
+            switch (mode) {
+                case 0:
+                    System.out.println("Xin chào và hẹn gặp lại!");
+                    SaveTrie.saveTrie();
+                    System.exit(0);
+                case 1:
+                    InsertFromCommandline.insertFromCommandline();
+                    break;
+                case 2:
+                    RemoveDictionary.removeDictionary();
+                    break;
+                case 3:
+                    UpdateDictionary.updateDictionary();
+                    break;
+                case 4:
+                    DisplayDictionary.display(root, "");
+                    break;
+                case 5:
+                    DictionaryLookup.dictionaryLookup();
+                    break;
+                case 6:
+                    DictionarySearcher.search();
+                    break;
+                case 7:
+                    // PlayGame.playGame();
+                    // break;
+                case 8:
+                    // InsertFromFile.insertFromFile();
+                    // break;
+                case 9:
+                    // DictionaryExportToFile.dictionaryExportToFile();
+                    // break;
             }
+            System.out.println("Nhấp Enter để kết thúc chương trình!");
+            scanner.nextLine();
         }
     }
-
-    private static int wordCount = 1;
-    public static void display(TrieNode trieNode, String wordStored) {
-        if (trieNode != null && trieNode.getTriemap() != null) {
-
-            for (char x = 0; x < 256; x++) {
-                TrieNode childNode = trieNode.getTriemap().get(x);
-                if (childNode != null) {
-                    String currentWord = wordStored + x;
-                    if (childNode.isWordEnd()) {
-                        System.out.println(wordCount + ". " + currentWord);
-                        System.out.println(childNode.getMeaning());
-                        wordCount++;
-                    }
-                    TrieDictionary.put(currentWord, childNode.getMeaning());
-                    display(childNode, currentWord);
-                }
-            }
-        }
-    }
-
-
 
 }

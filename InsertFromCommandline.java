@@ -1,4 +1,4 @@
-public class InsertFromCommandline extends DictionaryManagement {
+public class InsertFromCommandline extends TrieOperation {
     public static void insertFromCommandline() {
         while (true) {
             try {
@@ -11,7 +11,7 @@ public class InsertFromCommandline extends DictionaryManagement {
                     String wordTarget = scanner.nextLine().toLowerCase().trim();
                     System.out.println("Nhập vào nghĩa tiếng việt: ");
                     String wordExplain = scanner.nextLine().toLowerCase().trim();
-                    addWord(wordTarget, wordExplain + "\n");
+                    insertTrie(wordTarget, wordExplain + "\n");
                 }
                 break;
             } catch (Exception e) {
