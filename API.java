@@ -14,6 +14,7 @@ public class API {
                     "?q=" + URLEncoder.encode(text, StandardCharsets.UTF_8) +
                     "&target=" + langTo +
                     "&source=" + langFrom;
+            @SuppressWarnings("deprecation")
             URL url = new URL(urlStr);
             StringBuilder response = new StringBuilder();
             HttpURLConnection con = (HttpURLConnection) url.openConnection();
