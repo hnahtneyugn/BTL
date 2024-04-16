@@ -1,12 +1,20 @@
 import java.io.*;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-public class PlayGame extends DictionaryManagement {
+public class PlayGame extends TrieOperation {
+    protected static LinkedHashMap<String, String> dictionaryGame = new LinkedHashMap<>();
+
     protected static List<Map.Entry<String, String>> entryList;
+
     protected static Random random = new Random();
+
+    public final static void addWordGame(String wordTarget, String wordExplain) {
+        dictionaryGame.put(wordTarget, wordExplain);
+    }
 
     public final static void initializeGame() throws IOException {
         FileReader fr = new FileReader("game.txt");
@@ -21,6 +29,7 @@ public class PlayGame extends DictionaryManagement {
         br.close();
         entryList = new ArrayList<>(dictionaryGame.entrySet());
     }
+
 
     public final static void menuGame() {
         System.out.println("Chào mừng đến với trò chơi của chúng tôi!");

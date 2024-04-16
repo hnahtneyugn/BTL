@@ -4,7 +4,9 @@ import java.util.List;
 import java.util.Map;
 
 public class Game2 extends PlayGame {
+
     protected static List<Map.Entry<String, String>> questionList = new ArrayList<>();
+
     protected static char[] answers = { 'A', 'B', 'C', 'D' };
 
     public static void menuGame2() {
@@ -148,4 +150,5 @@ public class Game2 extends PlayGame {
                 break;
         }
     }
+
 }

@@ -1,12 +1,13 @@
-public class DictionaryLookup extends DictionaryManagement {
-    public final static void menuLookup() {
+public class DictionaryLookup extends TrieOperation {
+
+    public static void menuLookUp() {
         System.out.println("Bạn muốn sử dụng từ điển: ");
         System.out.println("[1] Từ điển Anh - Việt");
         System.out.println("[2] Từ điển Việt - Anh");
         System.out.println("Xin mời bạn lựa chọn: ");
     }
 
-    public final static int lookupMode() {
+    public static int lookUpMode() {
         while (true) {
             try {
                 int lookupMode = scanner.nextInt();
@@ -21,28 +22,29 @@ public class DictionaryLookup extends DictionaryManagement {
             }
         }
     }
-    public static void lookupEV(){
-        System.out.println("Nhập từ cần tra nghĩa: ");
-        String lookupWord = scanner.nextLine().toLowerCase().trim();
-        if(dictionary.containsKey(lookupWord)){
-            System.out.println("Thông tin về từ mà bạn cần tìm kiếm:");
-            System.out.println(dictionary.get(lookupWord));
-        }else{
-            System.out.println("Thông tin về từ mà bạn cần tìm kiếm:");
-            System.out.println(API.translate("en", "vi", lookupWord));
+
+    public static void lookupEV() {
+        System.out.println("Nhập vào từ tiếng anh bạn muốn tra cứu:");
+        String lookUpWord = scanner.nextLine().toLowerCase().trim();
+        System.out.println("Thông tin về từ tiếng anh mà bạn cần tìm kiếm:");
+        if (searchTrie(lookUpWord) != null) {
+            System.out.println(searchTrie(lookUpWord).getMeaning());
+        } else {
+            System.out.println(API.translate("en", "vi", lookUpWord));
         }
     }
-    public static void lookupVE(){
-        System.out.println("Nhập từ cần tìm: ");
-        String text = scanner.nextLine().toLowerCase().trim();
-        System.out.println("Từ bạn muốn tìm kiếm là: ");
-        System.out.println(API.translate("vi", "en", text));
+
+    public static void lookupVE() {
+        System.out.println("Nhập vào từ tiếng việt bạn muốn tra cứu:");
+        String lookUpWord = scanner.nextLine().toLowerCase().trim();
+        System.out.println("Thông tin về từ tiếng việt mà bạn cần tìm kiếm:");
+        System.out.println(API.translate("vi", "en", lookUpWord));
     }
 
-    public final static void dictionaryLookup(){
-        menuLookup();
-        int lookupMode = lookupMode();
-        switch (lookupMode) {
+    public static void dictionaryLookUp() {
+        menuLookUp();
+        int lookUpMode = lookUpMode();
+        switch (lookUpMode) {
             case 1:
                 lookupEV();
                 break;
@@ -51,4 +53,5 @@ public class DictionaryLookup extends DictionaryManagement {
                 break;
         }
     }
+
 }

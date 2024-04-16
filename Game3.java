@@ -3,7 +3,9 @@ import java.util.List;
 import java.util.Map;
 
 public class Game3 extends PlayGame {
+
     protected static List<String> questionList = new ArrayList<>();
+
     protected static char[][] matrix = new char[25][25];
 
     public static void initializeGame3() {
@@ -176,16 +178,12 @@ public class Game3 extends PlayGame {
         List<String> correctList = new ArrayList<>();
         while (heart > 0 && correctList.size() < 4) {
             String answer = scanner.nextLine().toLowerCase().trim();
-            if (isAllLetters(answer)) {
-                if (questionList.contains(answer)) {
-                    correctList.add(answer);
-                    System.out.println("Đáp án của bạn chính xác");
-                } else {
-                    heart--;
-                    System.out.println("Đáp án của bạn chưa chính xác. Bạn còn " + heart + " cơ hội.");
-                }
+            if (questionList.contains(answer)) {
+                correctList.add(answer);
+                System.out.println("Đáp án của bạn chính xác");
             } else {
-                System.out.println("Dữ liệu đầu vào không hợp lệ!");
+                heart--;
+                System.out.println("Đáp án của bạn chưa chính xác. Bạn còn " + heart + " cơ hội.");
             }
         }
         if (heart == 0) {
@@ -215,4 +213,5 @@ public class Game3 extends PlayGame {
                 break;
         }
     }
+
 }
