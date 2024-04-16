@@ -24,7 +24,6 @@ public class DictionaryLookup extends TrieOperation {
     }
 
     public static void lookupEV() {
-<<<<<<< HEAD
        System.out.println("Nhập vào từ tiếng anh bạn muốn tra cứu:");
        String lookUpWord = scanner.nextLine().toLowerCase().trim();
         System.out.println("Thông tin về từ tiếng anh mà bạn cần tìm kiếm:");
@@ -32,15 +31,6 @@ public class DictionaryLookup extends TrieOperation {
            System.out.println(searchTrie(lookUpWord).getMeaning());
         } else {
            System.out.println(API.translate("en", "vi", lookUpWord));
-=======
-        System.out.println("Nhập vào từ tiếng anh bạn muốn tra cứu:");
-        String lookUpWord = scanner.nextLine().toLowerCase().trim();
-        System.out.println("Thông tin về từ tiếng anh mà bạn cần tìm kiếm:");
-        if (searchTrie(lookUpWord) != null) {
-            System.out.println(searchTrie(lookUpWord).getMeaning());
-        } else {
-            System.out.println(API.translate("en", "vi", lookUpWord));
->>>>>>> 364b4e49000819f78afdb67a903ccc03ea938519
         }
     }
 
@@ -51,7 +41,6 @@ public class DictionaryLookup extends TrieOperation {
         System.out.println(API.translate("vi", "en", lookUpWord));
     }
 
-<<<<<<< HEAD
    public static void dictionaryLookUp() {
        menuLookUp();
        int lookUpMode = lookUpMode();
@@ -64,19 +53,5 @@ public class DictionaryLookup extends TrieOperation {
                break;
        }
    }
-=======
-    public static void dictionaryLookUp() {
-        menuLookUp();
-        int lookUpMode = lookUpMode();
-        switch (lookUpMode) {
-            case 1:
-                lookupEV();
-                break;
-            case 2:
-                lookupVE();
-                break;
-        }
-    }
->>>>>>> 364b4e49000819f78afdb67a903ccc03ea938519
 
 }

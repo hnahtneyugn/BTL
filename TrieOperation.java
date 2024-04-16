@@ -71,7 +71,6 @@ public class TrieOperation extends TrieNode {
         }
     }
 
-<<<<<<< HEAD
    public final static void dictionaryAdvanced() throws IOException {
        InitializeTrie.createTrie();
        while (true) {
@@ -114,49 +113,5 @@ public class TrieOperation extends TrieNode {
            scanner.nextLine();
        }
    }
-=======
-    public final static void dictionaryAdvanced() throws IOException {
-        InitializeTrie.createTrie();
-        while (true) {
-            printMenu();
-            int mode = appMode();
-            switch (mode) {
-                case 0:
-                    System.out.println("Xin chào và hẹn gặp lại");
-                    SaveTrie.saveTrie();
-                    System.exit(0);
-                case 1:
-                    InsertFromCommandline.insertFromCommandline();
-                    break;
-                case 2:
-                    RemoveDictionary.removeDictionary();
-                    break;
-                case 3:
-                    UpdateDictionary.updateDictionary();
-                    break;
-                case 4:
-                    DisplayDictionary.displayDictionary(root, "");
-                    break;
-                case 5:
-                    DictionaryLookup.dictionaryLookUp();
-                    break;
-                case 6:
-                    DictionarySearch.searchDictionary();
-                    break;
-                case 7:
-                    PlayGame.playGame();
-                    break;
-                case 8:
-                    InsertFromFile.insertFromFile();
-                    break;
-                case 9:
-                    DictionaryExportToFile.dictionaryExportToFile();
-                    break;
-            }
-            System.out.println("Nhấp Enter để kết thúc chương trình!");
-            scanner.nextLine();
-        }
-    }
->>>>>>> 364b4e49000819f78afdb67a903ccc03ea938519
 
 }
