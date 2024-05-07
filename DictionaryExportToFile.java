@@ -2,8 +2,6 @@ import java.io.*;
 
 public class DictionaryExportToFile extends TrieOperation {
 
-    private static int wordCount = 1;
-
     public static void exportToFile(TrieNode trieNode, String wordStored, BufferedWriter bw) throws IOException {
         if (trieNode != null && trieNode.getTriemap() != null) {
             for (char x = 0; x < 256; x++) {
@@ -11,12 +9,10 @@ public class DictionaryExportToFile extends TrieOperation {
                 if (childNode != null) {
                     String currentWord = wordStored + x;
                     if (childNode.isWordEnd()) {
-                        bw.write(wordCount + ". ");
                         bw.write(currentWord);
                         bw.write("\n");
                         bw.write(childNode.getMeaning());
                         bw.write("\n");
-                        wordCount++;
                     }
                     exportToFile(childNode, currentWord, bw);
                 }

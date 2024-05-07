@@ -91,7 +91,7 @@ public class TrieOperation extends TrieNode {
                    UpdateDictionary.updateDictionary();
                    break;
                case 4:
-                   DisplayDictionary.displayDictionary(root, "");
+                   DisplayDictionary.displayDictionary(root, "", 1);
                    break;
                case 5:
                    DictionaryLookup.dictionaryLookUp();

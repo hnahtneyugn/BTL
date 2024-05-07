@@ -51,6 +51,7 @@ public class Game3 extends PlayGame {
     }
 
     public static void buildQuestion(int sizeWords) {
+        questionList.clear();
         while (questionList.size() < 4) {
             Map.Entry<String, String> temporaryEntry = entryList.get(random.nextInt(entryList.size()));
             String ques = temporaryEntry.getKey().toLowerCase();
