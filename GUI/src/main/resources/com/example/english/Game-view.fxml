@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="540.0" prefWidth="840.0" styleClass="backgroundColor" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.english.Controller.GameController">
+   <children>
+      <VBox layoutX="220.0" layoutY="95.0" prefHeight="200.0" prefWidth="336.0" AnchorPane.bottomAnchor="95.0" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="240.0" AnchorPane.topAnchor="95.0">
+         <children>
+            <Button fx:id="game1Button" layoutX="10.0" layoutY="242.0" mnemonicParsing="false" onAction="#printGame1" prefHeight="500.0" prefWidth="1000.0" text="Tìm nghĩa của từ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Label layoutX="10.0" layoutY="106.0" prefHeight="460.0" prefWidth="1000.0" text="Label" visible="false" />
+            <HBox prefHeight="460.0" prefWidth="1000.0">
+               <children>
+                  <Button layoutX="198.0" layoutY="10.0" mnemonicParsing="false" prefHeight="500.0" prefWidth="800.0" text="Button" visible="false" />
+                  <Button fx:id="game11Button" mnemonicParsing="false" onAction="#switchToSceneGame11" prefHeight="500.0" prefWidth="1000.0" stylesheets="@css/button.css" text="Anh - Việt" visible="false">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button mnemonicParsing="false" prefHeight="500.0" prefWidth="800.0" text="Button" visible="false" />
+                  <Button fx:id="game12Button" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#switchToSceneGame12" prefHeight="500.0" prefWidth="1000.0" stylesheets="@css/button.css" text="Việt - Anh" visible="false">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button layoutX="386.0" layoutY="10.0" mnemonicParsing="false" prefHeight="500.0" prefWidth="800.0" text="Button" visible="false" />
+               </children>
+            </HBox>
+            <Label prefHeight="460.0" prefWidth="1000.0" text="Label" visible="false" />
+            <Button fx:id="game2Button" layoutX="10.0" layoutY="242.0" mnemonicParsing="false" onAction="#printGame2" prefHeight="500.0" prefWidth="1000.0" text="Điền kí tự còn thiếu">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Label layoutX="10.0" layoutY="242.0" prefHeight="460.0" prefWidth="1000.0" text="Label" visible="false" />
+            <HBox prefHeight="460.0" prefWidth="1000.0">
+               <children>
+                  <Button fx:id="game21Button" mnemonicParsing="false" onAction="#switchToSceneGame21" prefHeight="500.0" prefWidth="1100.0" stylesheets="@css/button.css" text="Dễ" visible="false">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button layoutX="326.0" layoutY="10.0" mnemonicParsing="false" prefHeight="500.0" prefWidth="850.0" text="Button" visible="false" />
+                  <Button fx:id="game22Button" mnemonicParsing="false" onAction="#switchToSceneGame22" prefHeight="500.0" prefWidth="1100.0" stylesheets="@css/button.css" text="Trung bình" visible="false">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button layoutX="123.0" layoutY="10.0" mnemonicParsing="false" prefHeight="500.0" prefWidth="850.0" text="Button" visible="false" />
+                  <Button fx:id="game23Button" mnemonicParsing="false" onAction="#switchToSceneGame23" prefHeight="500.0" prefWidth="1100.0" stylesheets="@css/button.css" text="Khó" visible="false">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+               </children>
+            </HBox>
+            <Label layoutX="10.0" layoutY="120.0" prefHeight="460.0" prefWidth="1000.0" text="Label" visible="false" />
+            <Button fx:id="game3Button" mnemonicParsing="false" onAction="#printGame3" prefHeight="500.0" prefWidth="1000.0" text="Truy tìm mật mã">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Label layoutX="10.0" layoutY="203.0" prefHeight="460.0" prefWidth="1000.0" text="Label" visible="false" />
+            <HBox prefHeight="460.0" prefWidth="1000.0">
+               <children>
+                  <Button fx:id="game31Button" mnemonicParsing="false" onAction="#switchToSceneGame31" prefHeight="500.0" prefWidth="1000.0" stylesheets="@css/button.css" text="Dễ" visible="false">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button mnemonicParsing="false" prefHeight="500.0" prefWidth="850.0" text="Button" visible="false" />
+                  <Button fx:id="game32Button" mnemonicParsing="false" onAction="#switchToSceneGame32" prefHeight="500.0" prefWidth="1000.0" stylesheets="@css/button.css" text="Trung bình" visible="false">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button layoutX="115.0" layoutY="10.0" mnemonicParsing="false" prefHeight="500.0" prefWidth="850.0" text="Button" visible="false" />
+                  <Button fx:id="game33Button" layoutX="139.0" layoutY="10.0" mnemonicParsing="false" onAction="#switchToSceneGame33" prefHeight="500.0" prefWidth="1000.0" stylesheets="@css/button.css" text="Khó" visible="false">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+               </children>
+            </HBox>
+            <Label layoutX="10.0" layoutY="340.0" prefHeight="460.0" prefWidth="1000.0" text="Label" visible="false" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

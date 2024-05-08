@@ -1,0 +1,16 @@
+.search_bar{
+    -fx-background-color:#99FFFF;
+    -fx-background-radius:50;
+    -fx-text-color:#ffffff;
+}
+    .search_button{
+    -fx-background-color:transparent;
+}
+.search_button:hover{
+    -fx-scale-x:1.2;
+    -fx-scale-y:1.2;
+}
+.myMenuItem {
+    -fx-pref-width: 120px; /* Thiết lập chiều rộng */
+    -fx-pref-height: 50px; /* Thiết lập chiều cao */
+}
